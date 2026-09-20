@@ -171,6 +171,8 @@ module.exports = {
     // ================= poets =================
     [C, `Who wrote 'War Photographer'?`, `Carol Ann Duffy`, [`Simon Armitage`, `Gillian Clarke`, `Seamus Heaney`], `Duffy was Poet Laureate from 2009 to 2019.`, P],
     [C, `Who wrote 'Kamikaze'?`, `Beatrice Garland`, [`Carol Ann Duffy`, `Simon Armitage`, `Gillian Clarke`], `The poem was published in 2013.`, P],
+    [C, `Who wrote 'Dusting the Phone'?`, `Jackie Kay`, [`Carol Ann Duffy`, `Gillian Clarke`, `Christina Rossetti`], `She is a Scottish poet.`, P],
+    [C, `Who wrote 'Origin Story'?`, `Eve L. Ewing`, [`Claude McKay`, `Zulfikar Ghose`, `Simon Armitage`], `She is an American poet and writer from Chicago.`, P],
     [C, `Who wrote 'Sonnet 29'?`, `Elizabeth Barrett Browning`, [`Christina Rossetti`, `Gillian Clarke`, `Imtiaz Dharker`], `She was a Victorian poet.`, P],
     [C, `Who wrote 'The Schoolboy'?`, `William Blake`, [`William Wordsworth`, `Thomas Hardy`, `Wilfred Owen`], `It appears in Songs of Experience.`, P],
     [C, `Who wrote 'I Wandered Lonely as a Cloud'?`, `William Wordsworth`, [`William Blake`, `Thomas Hardy`, `Seamus Heaney`], `He is a Romantic poet.`, P],
