@@ -1,3 +1,4 @@
+// Eduqas 2027 poetry anthology. Only poems Andrew has confirmed are in his anthology, and only lines I am certain of.
 // [topic, question, correct answer, [3 wrong answers], one-line explanation, unit hint]
 const P = 'Poetry';
 const C = `Anthology poems - content and meaning`;
@@ -5,102 +6,92 @@ const C = `Anthology poems - content and meaning`;
 module.exports = {
   subject: 'English Literature',
   qs: [
-    // ================= fill-in-the-blank quotes =================
-    // Ozymandias (Shelley)
-    [C, `'Ozymandias' - complete the quote: "Look on my Works, ye Mighty, and ___!"`, `despair`, [`tremble`, `weep`, `rejoice`], `The boast on the pedestal is ironic because only ruins remain.`, P],
-    [C, `'Ozymandias' - complete the quote: "Two vast and ___ legs of stone."`, `trunkless`, [`broken`, `fallen`, `towering`], `The statue is fragmented and ruined.`, P],
-    [C, `'Ozymandias' - complete the quote: "Nothing beside remains. Round the ___ of that colossal Wreck."`, `decay`, [`ruins`, `base`, `edge`], `Time destroys even the greatest power.`, P],
-    // London (Blake)
-    [C, `'London' - complete the quote: "The mind-forg'd ___ I hear."`, `manacles`, [`chains`, `fetters`, `shackles`], `Blake suggests people are trapped by their own attitudes.`, P],
-    [C, `'London' - complete the quote: "I wander thro' each ___ street."`, `charter'd`, [`crowded`, `dirty`, `narrow`], `Even the streets and the Thames are owned and controlled.`, P],
-    [C, `'London' - complete the quote: "And mark in every face I meet / Marks of weakness, marks of ___."`, `woe`, [`sorrow`, `fear`, `pain`], `The repetition of 'marks' emphasises universal suffering.`, P],
-    // The Prelude (Wordsworth)
-    [C, `'The Prelude' - complete the quote: "A little boat tied to a ___-tree."`, `willow`, [`birch`, `oak`, `alder`], `The boy steals the boat and later feels guilt and fear.`, P],
-    [C, `'The Prelude' - complete the quote: "It was an act of stealth / And troubled ___."`, `pleasure`, [`sorrow`, `excitement`, `fear`], `The oxymoron 'troubled pleasure' shows mixed feelings.`, P],
-    // She Walks in Beauty (Byron)
-    [C, `'She Walks in Beauty' - complete the quote: "She walks in beauty, like the ___."`, `night`, [`dawn`, `sea`, `morning`], `The opening simile links her beauty to the night sky.`, P],
-    [C, `'She Walks in Beauty' - complete the quote: "One shade the more, one ray the ___."`, `less`, [`more`, `fewer`, `best`], `Her beauty is a perfect balance of light and dark.`, P],
-    [C, `'She Walks in Beauty' - complete the quote: "A mind at peace with all below, / A heart whose love is ___!"`, `innocent`, [`eternal`, `gentle`, `pure`], `Her outer beauty reflects her goodness.`, P],
-    // To Autumn (Keats)
-    [C, `'To Autumn' - complete the quote: "Season of mists and mellow ___."`, `fruitfulness`, [`harvest`, `abundance`, `sweetness`], `The poem opens by addressing autumn directly.`, P],
-    [C, `'To Autumn' - complete the quote: "Close bosom-friend of the maturing ___."`, `sun`, [`earth`, `moon`, `year`], `Autumn is personified as a friend of the sun.`, P],
-    [C, `'To Autumn' - complete the quote: "And gathering swallows twitter in the ___."`, `skies`, [`trees`, `fields`, `air`], `The last line suggests the coming of winter.`, P],
-    // Sonnet 43 (Barrett Browning)
-    [C, `'Sonnet 43' - complete the quote: "How do I love thee? Let me count the ___."`, `ways`, [`days`, `years`, `times`], `The poem then lists the ways she loves.`, P],
-    [C, `'Sonnet 43' - complete the quote: "...I shall but love thee better after ___."`, `death`, [`life`, `time`, `marriage`], `Her love is eternal.`, P],
-    // As Imperceptibly as Grief (Dickinson)
-    [C, `'As Imperceptibly as Grief' - complete the quote: "As imperceptibly as Grief / The Summer ___ away."`, `lapsed`, [`faded`, `slipped`, `drifted`], `Summer slips away as slowly as grief.`, P],
-    [C, `'As Imperceptibly as Grief' - complete the quote: "Our Summer made her light escape / Into the ___."`, `Beautiful`, [`Distance`, `Unknown`, `Silence`], `The ending is calm and accepting.`, P],
-    // A Wife in London (Hardy)
-    [C, `'A Wife in London' - complete the quote: "She sits in the tawny ___."`, `vapour`, [`fog`, `mist`, `smoke`], `The London fog reflects her dread and grief.`, P],
-    // The Soldier (Brooke)
-    [C, `'The Soldier' - complete the quote: "That is for ever ___."`, `England`, [`mine`, `home`, `free`], `The speaker imagines his body enriching foreign soil.`, P],
-    [C, `'The Soldier' - complete the quote: "A body of England's, breathing English ___."`, `air`, [`soil`, `light`, `wind`], `The repetition of England shows his patriotism.`, P],
-    // Dulce et Decorum Est (Owen)
-    [C, `'Dulce et Decorum Est' - complete the quote: "Bent double, like old beggars under ___."`, `sacks`, [`packs`, `weights`, `chains`], `The simile makes young soldiers seem old and worn out.`, P],
-    [C, `'Dulce et Decorum Est' - complete the quote: "Gas! GAS! Quick, boys! - An ecstasy of ___."`, `fumbling`, [`running`, `panic`, `screaming`], `The frantic pace mirrors the panic.`, P],
-    [C, `'Dulce et Decorum Est' - complete the quote: "As under a green sea, I saw him ___."`, `drowning`, [`sinking`, `falling`, `dying`], `The gas is compared to drowning.`, P],
-    [C, `'Dulce et Decorum Est' - complete the quote: "The old ___: Dulce et decorum est pro patria mori."`, `Lie`, [`Truth`, `Story`, `Song`], `Owen calls patriotic propaganda a lie.`, P],
-    // Death of a Naturalist (Heaney)
-    [C, `'Death of a Naturalist' - complete the quote: "All year the flax-dam ___ in the heart of the townland."`, `festered`, [`rotted`, `stank`, `bubbled`], `The verb introduces decay.`, P],
-    [C, `'Death of a Naturalist' - complete the quote: "...the warm thick ___ of frogspawn."`, `slobber`, [`jelly`, `slime`, `froth`], `The sensory language is unpleasant.`, P],
-    [C, `'Death of a Naturalist' - complete the quote: "I sickened, turned, and ___."`, `ran`, [`fled`, `hid`, `cried`], `The short monosyllabic list shows the boy's panic.`, P],
-    // Hawk Roosting (Hughes)
-    [C, `'Hawk Roosting' - complete the quote: "I sit in the top of the wood, my eyes ___."`, `closed`, [`open`, `wide`, `narrowed`], `The hawk is so powerful it does not need to watch.`, P],
-    [C, `'Hawk Roosting' - complete the quote: "My manners are tearing off ___."`, `heads`, [`wings`, `limbs`, `skin`], `The hawk is proud and violent.`, P],
-    [C, `'Hawk Roosting' - complete the quote: "The sun is behind me. Nothing has ___ since I began."`, `changed`, [`moved`, `ended`, `died`], `The hawk believes the world is unchanging and belongs to him.`, P],
-    // Valentine (Duffy)
-    [C, `'Valentine' - complete the quote: "Not a red rose or a satin ___."`, `heart`, [`ribbon`, `card`, `bow`], `Duffy rejects clichés of romance.`, P],
-    [C, `'Valentine' - complete the quote: "I give you an ___."`, `onion`, [`apple`, `egg`, `orange`], `The onion is the central extended metaphor.`, P],
-    [C, `'Valentine' - complete the quote: "It will blind you with ___ like a lover."`, `tears`, [`light`, `love`, `pain`], `The onion makes you cry, just as love can.`, P],
-    // Afternoons (Larkin)
-    [C, `'Afternoons' - complete the quote: "The leaves fall in ones and ___."`, `twos`, [`threes`, `tens`, `fours`], `The falling leaves suggest the passing of time.`, P],
-    [C, `'Afternoons' - complete the quote: "Their beauty has ___."`, `thickened`, [`faded`, `withered`, `deepened`], `The young mothers are ageing.`, P],
-    // Living Space (Dharker)
-    [C, `'Living Space' - complete the quote: "There are just not enough straight ___."`, `lines`, [`walls`, `roads`, `angles`], `The precarious building reflects fragile lives.`, P],
+    // ================= The Schoolboy (Blake) =================
+    [C, `'The Schoolboy' - complete the quote: "I love to rise in a summer ___."`, `morn`, [`dawn`, `day`, `sun`], `The boy loves the freedom of the morning outdoors.`, P],
+    [C, `'The Schoolboy' - complete the quote: "And the ___ sings with me."`, `skylark`, [`nightingale`, `robin`, `thrush`], `The bird is a symbol of freedom and joy.`, P],
+    [C, `'The Schoolboy' - complete the quote: "But to go to school in a summer morn, / O! it drives all ___ away."`, `joy`, [`hope`, `light`, `peace`], `School is presented as a place that crushes happiness.`, P],
+    [C, `'The Schoolboy' - complete the quote: "How can the bird that is born for ___ / Sit in a cage and sing?"`, `joy`, [`flight`, `song`, `freedom`], `The caged bird is a metaphor for the confined child.`, P],
+    [C, `'The Schoolboy' - complete the quote: "How can a child when fears annoy, / But droop his tender wing, / And forget his youthful ___?"`, `spring`, [`days`, `joy`, `play`], `Spring stands for childhood.`, P],
 
-    // ================= content and poets =================
-    [C, `Who wrote 'Ozymandias'?`, `Percy Bysshe Shelley`, [`John Keats`, `Lord Byron`, `William Blake`], `It was written in 1817.`, P],
-    [C, `Who wrote 'Death of a Naturalist'?`, `Seamus Heaney`, [`Ted Hughes`, `Philip Larkin`, `Simon Armitage`], `He was from Northern Ireland.`, P],
-    [C, `Who wrote 'Hawk Roosting'?`, `Ted Hughes`, [`Seamus Heaney`, `Philip Larkin`, `Owen Sheers`], `The hawk speaks in the first person.`, P],
-    [C, `Who wrote 'Valentine'?`, `Carol Ann Duffy`, [`Rita Dove`, `Imtiaz Dharker`, `Emily Dickinson`], `It uses an onion as a metaphor for love.`, P],
-    [C, `Who wrote 'Afternoons'?`, `Philip Larkin`, [`Ted Hughes`, `Thomas Hardy`, `Simon Armitage`], `It is about young mothers and lost youth.`, P],
-    [C, `Who wrote 'Mametz Wood'?`, `Owen Sheers`, [`Wilfred Owen`, `Simon Armitage`, `Rupert Brooke`], `It is about soldiers' remains found on a First World War battlefield.`, P],
-    [C, `Who wrote 'The Soldier'?`, `Rupert Brooke`, [`Wilfred Owen`, `Thomas Hardy`, `Owen Sheers`], `It is a patriotic sonnet.`, P],
-    [C, `Who wrote 'Dulce et Decorum Est'?`, `Wilfred Owen`, [`Rupert Brooke`, `Siegfried Sassoon`, `Owen Sheers`], `It attacks the glorification of war.`, P],
-    [C, `What is 'Mametz Wood' about?`, `The discovery of soldiers' remains from the First World War battle`, [`A modern wildfire`, `A love affair`, `A hunting trip`], `It reflects on the lasting impact of war.`, P],
-    [C, `What is 'The Manhunt' about?`, `A woman helping her husband recover from injuries and trauma from war`, [`A police search for an escaped prisoner`, `A hunter tracking a stag`, `Two lovers who part`], `The 'manhunt' is a search for the man he was before.`, P],
-    [C, `Which poem is written from the point of view of a bird of prey?`, `Hawk Roosting`, [`To Autumn`, `Afternoons`, `The Soldier`], `The hawk claims to be in control of all Creation.`, P],
-    [C, `In 'Valentine', what does the speaker give instead of a rose?`, `An onion`, [`A satin heart`, `A ring`, `A card`], `The onion is a more honest gift.`, P],
+    // ================= I Wandered Lonely as a Cloud (Wordsworth) =================
+    [C, `'I Wandered Lonely as a Cloud' - complete the quote: "I wandered lonely as a ___."`, `cloud`, [`bird`, `breeze`, `wave`], `The simile shows the speaker drifting alone.`, P],
+    [C, `'I Wandered Lonely as a Cloud' - complete the quote: "A host, of golden ___."`, `daffodils`, [`tulips`, `sunflowers`, `buttercups`], `'Host' suggests an army or angels.`, P],
+    [C, `'I Wandered Lonely as a Cloud' - complete the quote: "Continuous as the stars that shine / And twinkle on the milky ___."`, `way`, [`sea`, `night`, `sky`], `The daffodils are compared to stars.`, P],
+    [C, `'I Wandered Lonely as a Cloud' - complete the quote: "Ten thousand saw I at a ___."`, `glance`, [`time`, `sight`, `look`], `The exaggeration shows how overwhelming the sight is.`, P],
+    [C, `'I Wandered Lonely as a Cloud' - complete the quote: "They flash upon that inward ___ / Which is the bliss of solitude."`, `eye`, [`mind`, `heart`, `ear`], `The memory of nature brings him joy later.`, P],
 
-    // ================= language, form and structure =================
-    [`Language, form and structure`, `What is enjambment?`, `When a sentence runs over a line break without punctuation`, [`When lines all rhyme`, `A break in the middle of a line`, `A repeated line at the end`], `It can create flow or suggest breathlessness.`, P],
-    [`Language, form and structure`, `'Sonnet 43' is written as a...`, `Sonnet (14 lines)`, [`Ballad`, `Free verse poem`, `Villanelle`], `It follows a Petrarchan pattern.`, P],
-    [`Language, form and structure`, `What is the central extended metaphor of 'Valentine'?`, `An onion`, [`A rose`, `A rainstorm`, `A fire`], `The metaphor is developed across the whole poem.`, P],
-    [`Language, form and structure`, `Which technique is used in 'the mind-forg'd manacles'?`, `Metaphor`, [`Simile`, `Onomatopoeia`, `Alliteration only`], `It suggests people trap themselves mentally.`, P],
-    [`Language, form and structure`, `In 'To Autumn', how is autumn presented?`, `Personified as a friend of the sun and a harvester`, [`As a warning`, `As a dead season`, `As a storm`], `The poem has three stanzas following the season's progress.`, P],
-    [`Language, form and structure`, `What is the irony in 'Ozymandias'?`, `A boastful inscription stands beside a ruined statue`, [`The statue is perfect`, `The king is still alive`, `The desert is green`], `Time has destroyed the king's power.`, P],
-    [`Language, form and structure`, `In 'Hawk Roosting', how does Hughes present the hawk?`, `As arrogant and violent, speaking in the first person`, [`As gentle and shy`, `As a symbol of peace`, `As a victim`], `The tone is dominating.`, P],
-    [`Language, form and structure`, `The title 'Dulce et Decorum Est' means...`, `'It is sweet and fitting to die for your country'`, [`'War is hell'`, `'Long live the king'`, `'Peace in our time'`], `Owen calls this 'the old Lie'.`, P],
+    // ================= Cousin Kate (Rossetti) =================
+    [C, `'Cousin Kate' - complete the quote: "I was a cottage ___ / Hardened by sun and air."`, `maiden`, [`girl`, `child`, `servant`], `The speaker starts as a poor, innocent country girl.`, P],
+    [C, `'Cousin Kate' - complete the quote: "Why did a great ___ find me out?"`, `lord`, [`king`, `man`, `knight`], `A powerful man takes advantage of her.`, P],
+    [C, `'Cousin Kate' - complete the quote: "He wore me like a golden ___, / He changed me like a glove."`, `knot`, [`chain`, `ring`, `crown`], `Similes show she was treated like an accessory.`, P],
+    [C, `'Cousin Kate' - complete the quote: "So now I moan, an unclean thing, / Who might have been a ___."`, `dove`, [`queen`, `lady`, `bride`], `The dove symbolises innocence and purity.`, P],
 
-    // ================= themes and connections =================
-    [`Themes and connections`, `Which two poems both explore war?`, `Dulce et Decorum Est and The Soldier`, [`London and To Autumn`, `Valentine and Hawk Roosting`, `Ozymandias and Afternoons`], `They present very different views of war.`, P],
-    [`Themes and connections`, `Which two poems both explore nature?`, `To Autumn and Death of a Naturalist`, [`Valentine and Sonnet 43`, `London and Ozymandias`, `The Soldier and Afternoons`], `Keats celebrates nature. Heaney shows nature as threatening.`, P],
-    [`Themes and connections`, `Which two poems both explore love?`, `Sonnet 43 and Valentine`, [`London and Hawk Roosting`, `Ozymandias and The Soldier`, `To Autumn and Afternoons`], `Their attitudes to love differ.`, P],
-    [`Themes and connections`, `Which two poems both explore power?`, `Ozymandias and Hawk Roosting`, [`To Autumn and Afternoons`, `Sonnet 43 and Valentine`, `The Soldier and A Wife in London`], `One power is destroyed by time, the other is arrogant.`, P],
-    [`Themes and connections`, `Which poem explores poverty and suffering in a city?`, `London`, [`To Autumn`, `Afternoons`, `The Soldier`], `Blake criticises the powerful for causing suffering.`, P],
+    // ================= Drummer Hodge (Hardy) =================
+    [C, `'Drummer Hodge' - complete the quote: "They throw in Drummer Hodge, to rest / ___ - just as found."`, `Uncoffined`, [`Unmarked`, `Unwept`, `Unburied`], `Hodge is buried without ceremony.`, P],
+    [C, `'Drummer Hodge' - complete the quote: "His landmark is a ___-crest / That breaks the veldt around."`, `kopje`, [`hill`, `rock`, `mountain`], `Hardy uses foreign words to show how far from home he lies.`, P],
+    [C, `'Drummer Hodge' - complete the quote: "And foreign ___ west / Each night above his mound."`, `constellations`, [`stars`, `moons`, `clouds`], `The unfamiliar sky adds to the sense of exile.`, P],
+    [C, `'Drummer Hodge' - complete the quote: "Young Hodge the Drummer never knew - / Fresh from his ___ home."`, `Wessex`, [`Dorset`, `English`, `village`], `Hodge was a young English soldier who never understood the war.`, P],
+    [C, `'Drummer Hodge' - complete the quote: "The meaning of the broad ___."`, `Karoo`, [`Kalahari`, `Sahara`, `veldt`], `The Karoo is a dry region of South Africa.`, P],
 
-    // ================= comparison skills =================
-    [`Comparison skills`, `Which word shows a contrast between two poems?`, `Whereas`, [`Similarly`, `Likewise`, `Also`], `Other contrast words are 'however' and 'in contrast'.`, P],
-    [`Comparison skills`, `What makes a good comparison?`, `Linking ideas and methods across both poems using connectives`, [`Retelling each poem separately`, `Listing the poets' names`, `Writing only about one poem`], `Compare both ideas (AO1) and methods (AO2).`, P],
+    // ================= Disabled (Owen) =================
+    [C, `'Disabled' - complete the quote: "He sat in a wheeled chair, waiting for ___."`, `dark`, [`the nurse`, `morning`, `spring`], `The opening sets a lonely, hopeless tone.`, P],
+    [C, `'Disabled' - complete the quote: "Legless, sewn short at ___."`, `elbow`, [`shoulder`, `wrist`, `knee`], `The blunt description shows the reality of his injuries.`, P],
+    [C, `'Disabled' - complete the quote: "Voices of boys rang saddening like a ___."`, `hymn`, [`bell`, `song`, `choir`], `The sound of healthy boys reminds him of what he lost.`, P],
+    [C, `'Disabled' - complete the quote: "And shivered in his ghastly suit of ___."`, `grey`, [`black`, `red`, `white`], `The colour reflects his dull, lifeless existence.`, P],
+    [C, `'Disabled' - complete the quote: "Why don't they come / And put him into ___?"`, `bed`, [`hospital`, `the ward`, `a chair`], `The ending shows his helplessness and isolation.`, P],
 
-    // ================= context =================
+    // ================= Blackberry Picking (Heaney) =================
+    [C, `'Blackberry Picking' - complete the quote: "Late August, given heavy rain and ___."`, `sun`, [`wind`, `hail`, `cloud`], `The poem begins with a sense of natural abundance.`, P],
+    [C, `'Blackberry Picking' - complete the quote: "At first, just one, a glossy purple ___."`, `clot`, [`drop`, `bead`, `gem`], `'Clot' suggests blood, linking the fruit to something bodily.`, P],
+    [C, `'Blackberry Picking' - complete the quote: "You ate that first one and its flesh was sweet / Like thickened ___."`, `wine`, [`blood`, `jam`, `syrup`], `The simile shows the fruit's richness.`, P],
+    [C, `'Blackberry Picking' - complete the quote: "The fruit fermented, the sweet flesh would turn ___."`, `sour`, [`bitter`, `brown`, `soft`], `The fruit rots as childhood hopes are lost.`, P],
+    [C, `'Blackberry Picking' - complete the quote: "It wasn't ___ / That all the lovely canfuls smelt of rot."`, `fair`, [`right`, `kind`, `true`], `A childish complaint that shows his disappointment.`, P],
+
+    // ================= Remains (Armitage) =================
+    [C, `'Remains' - complete the quote: "Probably armed, possibly ___."`, `not`, [`drunk`, `afraid`, `hiding`], `The uncertainty shows how quickly the soldiers judged the looter.`, P],
+    [C, `'Remains' - complete the quote: "I see every round as it rips through his ___."`, `life`, [`body`, `chest`, `heart`], `'Life' shows the speaker sees the human cost, not just a body.`, P],
+    [C, `'Remains' - complete the quote: "I see broad ___ on the other side."`, `daylight`, [`sunlight`, `darkness`, `blood`], `The image is graphic and stays in the speaker's mind.`, P],
+    [C, `'Remains' - complete the quote: "His blood-shadow stays on the ___."`, `street`, [`wall`, `floor`, `sand`], `The stain represents the speaker's lasting guilt.`, P],
+
+    // ================= I Shall Return (McKay) =================
+    [C, `'I Shall Return' - complete the quote: "I shall return again; I shall return / To laugh and love and watch with ___-eyes."`, `wonder`, [`open`, `happy`, `child`], `The speaker longs to return to the wonder of his homeland.`, P],
+    [C, `'I Shall Return' - complete the quote: "At golden noon the forest fires ___."`, `burn`, [`glow`, `rise`, `spread`], `The imagery is vivid and warm.`, P],
+    [C, `'I Shall Return' - complete the quote: "Wafting their blue-black smoke to ___ skies."`, `sapphire`, [`sunlit`, `cloudless`, `summer`], `Rich colours show his love for the place.`, P],
+    [C, `'I Shall Return' - complete the quote: "That bathe the brown blades of the bending ___."`, `grasses`, [`reeds`, `trees`, `rivers`], `The nature imagery is affectionate and detailed.`, P],
+    [C, `'I Shall Return' - what is the speaker longing for?`, `His Caribbean homeland`, [`His wartime home`, `A future wife`, `An English village`], `McKay was born in Jamaica and wrote this while living in America.`, P],
+
+    // ================= Catrin (Clarke) =================
+    [C, `'Catrin' - complete the quote: "I can remember you, our first fierce ___."`, `confrontation`, [`argument`, `meeting`, `embrace`], `The poem explores the tension between mother and daughter.`, P],
+    [C, `'Catrin' - complete the quote: "The tight red rope of love which we both ___."`, `fought`, [`held`, `tied`, `felt`], `The rope suggests the umbilical cord and the struggle for independence.`, P],
+
+    // ================= poets =================
+    [C, `Who wrote 'The Schoolboy'?`, `William Blake`, [`William Wordsworth`, `Thomas Hardy`, `Wilfred Owen`], `It appears in Songs of Experience.`, P],
+    [C, `Who wrote 'I Wandered Lonely as a Cloud'?`, `William Wordsworth`, [`William Blake`, `Thomas Hardy`, `Seamus Heaney`], `He is a Romantic poet.`, P],
+    [C, `Who wrote 'Cousin Kate'?`, `Christina Rossetti`, [`Claude McKay`, `Gillian Clarke`, `Imtiaz Dharker`], `She was a Victorian poet.`, P],
+    [C, `Who wrote 'Drummer Hodge'?`, `Thomas Hardy`, [`Wilfred Owen`, `William Blake`, `Simon Armitage`], `He wrote it during the Boer War.`, P],
+    [C, `Who wrote 'Disabled'?`, `Wilfred Owen`, [`Thomas Hardy`, `Simon Armitage`, `Seamus Heaney`], `He was a soldier-poet killed in 1918.`, P],
+    [C, `Who wrote 'I Shall Return'?`, `Claude McKay`, [`Zulfikar Ghose`, `Gillian Clarke`, `Thomas Hardy`], `He was a Jamaican-born poet.`, P],
+    [C, `Who wrote 'Decomposition'?`, `Zulfikar Ghose`, [`Claude McKay`, `Imtiaz Dharker`, `Simon Armitage`], `The poem is about poverty and the poet's reaction to it.`, P],
+    [C, `Who wrote 'Catrin'?`, `Gillian Clarke`, [`Imtiaz Dharker`, `Christina Rossetti`, `Seamus Heaney`], `It is about the poet's daughter.`, P],
+    [C, `Who wrote 'Blackberry Picking'?`, `Seamus Heaney`, [`Simon Armitage`, `Gillian Clarke`, `Thomas Hardy`], `He was from Northern Ireland.`, P],
+    [C, `Who wrote 'Dusting the Phone'?`, `Imtiaz Dharker`, [`Gillian Clarke`, `Christina Rossetti`, `Zulfikar Ghose`], `She is a poet born in Pakistan and raised in Scotland.`, P],
+    [C, `Who wrote 'Remains'?`, `Simon Armitage`, [`Seamus Heaney`, `Wilfred Owen`, `Zulfikar Ghose`], `It is based on the experience of a soldier in Iraq.`, P],
+
+    // ================= language, form and structure / themes / context =================
+    [`Themes and connections`, `Which two poems both explore the effects of war on soldiers?`, `Disabled and Remains`, [`Cousin Kate and Catrin`, `The Schoolboy and Blackberry Picking`, `I Wandered Lonely as a Cloud and I Shall Return`], `Both show lasting physical or psychological damage.`, P],
+    [`Themes and connections`, `Which poem explores the relationship between a mother and her daughter?`, `Catrin`, [`Blackberry Picking`, `Cousin Kate`, `The Schoolboy`], `The tone is loving but tense.`, P],
+    [`Themes and connections`, `Which poem explores a woman betrayed by a powerful man?`, `Cousin Kate`, [`Catrin`, `Drummer Hodge`, `Disabled`], `Rossetti criticises Victorian double standards.`, P],
+    [`Themes and connections`, `Which two poems both explore the loss of childhood innocence?`, `The Schoolboy and Blackberry Picking`, [`Disabled and Remains`, `Cousin Kate and Drummer Hodge`, `Catrin and I Shall Return`], `The child in 'Blackberry Picking' learns that good things decay.`, P],
+
+    [`Language, form and structure`, `'I Wandered Lonely as a Cloud' opens with a...`, `Simile comparing the speaker to a cloud`, [`Metaphor about the sea`, `Question to the reader`, `Command to the daffodils`], `The simile suggests drifting aimlessly.`, P],
+    [`Language, form and structure`, `In 'The Schoolboy', the caged bird is a...`, `Metaphor for a child trapped in school`, [`Simile for the speaker's father`, `Symbol of war`, `Description of a real pet`], `Blake criticises rigid education.`, P],
+    [`Language, form and structure`, `'Cousin Kate' is told from the point of view of...`, `A woman abandoned by a lord who addresses her cousin`, [`The lord himself`, `A narrator watching from afar`, `Cousin Kate`], `The first-person voice makes it personal.`, P],
+    [`Language, form and structure`, `Whose voice does the speaker use in 'Remains'?`, `A soldier haunted by having shot a looter`, [`A journalist`, `A police officer`, `A child`], `The colloquial voice makes the horror feel casual and real.`, P],
+
+    [`Context`, `'Drummer Hodge' was written in response to which war?`, `The Boer War in South Africa`, [`The First World War`, `The Crimean War`, `The Napoleonic Wars`], `Hodge is a young English soldier buried far from home.`, P],
     [`Context`, `Wilfred Owen was killed in...`, `1918`, [`1914`, `1916`, `1945`], `He died a week before the Armistice.`, P],
-    [`Context`, `Rupert Brooke died in...`, `1915`, [`1918`, `1916`, `1939`], `He died of blood poisoning on his way to Gallipoli.`, P],
-    [`Context`, `Seamus Heaney was from...`, `Northern Ireland`, [`England`, `Scotland`, `Wales`], `Many of his poems are set in rural Ireland.`, P],
-    [`Context`, `Which official post did Ted Hughes hold from 1984?`, `Poet Laureate`, [`Professor of English`, `Prime Minister's adviser`, `Nobel Laureate`], `He wrote many poems about animals.`, P],
-    [`Context`, `Which pharaoh inspired 'Ozymandias'?`, `Ramesses II`, [`Tutankhamun`, `Khufu`, `Cleopatra`], `Ozymandias is the Greek name for him.`, P],
-    [`Context`, `Which battle is 'Mametz Wood' linked to?`, `The Battle of the Somme, 1916`, [`The Battle of Hastings`, `The Battle of Waterloo`, `The Falklands War`], `Many Welsh soldiers were killed there.`, P],
-    [`Context`, `In which period was Blake's 'London' written?`, `The Romantic era, late 18th century`, [`The Victorian era`, `The Modern era`, `The Elizabethan era`], `It appeared in Songs of Experience (1794).`, P],
+    [`Context`, `In which period did Blake and Wordsworth write?`, `The Romantic period`, [`The Victorian period`, `The Modernist period`, `The Elizabethan period`], `Romantic poets valued nature and emotion.`, P],
+    [`Context`, `Christina Rossetti wrote 'Cousin Kate' during which era?`, `The Victorian era`, [`The Romantic era`, `The Elizabethan era`, `The Modernist era`], `The poem challenges Victorian attitudes to class and morality.`, P],
+    [`Context`, `Where was Claude McKay born?`, `Jamaica`, [`Nigeria`, `England`, `Trinidad`], `His poem expresses longing for his homeland.`, P],
   ],
 };
