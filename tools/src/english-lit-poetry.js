@@ -78,6 +78,50 @@ module.exports = {
     [`Language, form and structure`, `'Sonnet 29' follows which sonnet form?`, `Petrarchan (an octave followed by a sestet)`, [`Shakespearean (three quatrains and a couplet)`, `Villanelle`, `Free verse`], `The rhyme scheme is ABBAABBA CDCDCD.`, P],
     [`Themes and connections`, `In 'Sonnet 29', what does the speaker want most?`, `Her lover's real presence rather than thoughts of him`, [`To forget her lover`, `To leave the countryside`, `A longer poem to describe him`], `Real presence is better than memory.`, P],
 
+    // ================= Decomposition (Ghose) =================
+    [C, `'Decomposition' - complete the quote: "I have a picture I took in ___."`, `Bombay`, [`Delhi`, `Calcutta`, `Karachi`], `The speaker photographed a sleeping beggar in an Indian city.`, P],
+    [C, `'Decomposition' - complete the quote: "his shadow thrown aside like a ___."`, `blanket`, [`cloak`, `shroud`, `curtain`], `The simile shows the man has only his shadow for comfort.`, P],
+    [C, `'Decomposition' - complete the quote: "His arms and legs could be ___ in the stone."`, `cracks`, [`lines`, `veins`, `marks`], `The man is dehumanised and becomes part of the pavement.`, P],
+    [C, `'Decomposition' - complete the quote: "he lies veined into stone, a ___ man."`, `fossil`, [`dead`, `ancient`, `broken`], `A fossil is lifeless and ancient, which suggests he is barely alive.`, P],
+    [C, `'Decomposition' - complete the quote: "Brain-washed by the ___ into exhaustion."`, `sun`, [`heat`, `city`, `crowd`], `The harsh climate has worn him out.`, P],
+    [C, `'Decomposition' - complete the quote: "Behind him there is a crowd passingly bemused... and quite indifferent to this very ___ sight."`, `common`, [`sad`, `daily`, `strange`], `Poverty is so normal that nobody notices it.`, P],
+    [C, `'Decomposition' - complete the quote: "I thought it then a good ___."`, `composition`, [`picture`, `photograph`, `subject`], `The speaker first saw the beggar only as an artistic subject.`, P],
+    [C, `'Decomposition' - complete the quote: "and glibly called it 'The Man in the ___.'"`, `Street`, [`Crowd`, `City`, `Sun`], `'Glibly' shows he was casual and shallow.`, P],
+    [C, `'Decomposition' - complete the quote: "His head in the posture of one ___ / into a pillow."`, `weeping`, [`sleeping`, `resting`, `praying`], `The speaker later realises the man's pain.`, P],
+    [C, `'Decomposition' - complete the quote: "...presumption at attempting to compose / art of his hunger and ___."`, `solitude`, [`poverty`, `sleep`, `suffering`], `The speaker feels guilty for turning suffering into art.`, P],
+    [C, `In 'Decomposition', how does the speaker's attitude to the photograph change?`, `From pleased and casual to guilty and ashamed`, [`From angry to proud`, `From sad to cheerful`, `It stays the same`], `He realises he treated the man's suffering as art.`, P],
+    [C, `In 'Decomposition', who is 'indifferent' to the beggar?`, `The passing crowd`, [`The speaker`, `The photographer's friends`, `The beggar himself`], `They are more interested in a street trickster.`, P],
+    [`Language, form and structure`, `The title 'Decomposition' has a double meaning. What are the two meanings?`, `The composition of a photograph, and decay or rotting`, [`A musical piece and a poem`, `A painting and a building`, `A crowd and a shadow`], `It links art with the man's decaying, neglected body.`, P],
+    [`Language, form and structure`, `What does the metaphor 'a fossil man' suggest?`, `He is lifeless, motionless and part of the landscape`, [`He is very wise`, `He is a rich traveller`, `He is dangerous`], `It dehumanises him, which mirrors how others see him.`, P],
+    [`Language, form and structure`, `How many lines are in each stanza of 'Decomposition'?`, `Four`, [`Two`, `Three`, `Six`], `The regular quatrains give a controlled, observational tone.`, P],
+
+    // ================= Dusting the Phone =================
+    [C, `'Dusting the Phone' - complete the quote: "I am spending my time imagining the worst that could ___."`, `happen`, [`come`, `occur`, `follow`], `The speaker is anxious and expects disaster.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "The phone rings heralding some ___. Sirens."`, `disaster`, [`news`, `danger`, `emergency`], `Sirens create a sense of panic.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "The future is a long gloved ___."`, `hand`, [`arm`, `road`, `glove`], `The image is mysterious and unsettling.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "I assault the ___ for a letter."`, `postman`, [`post office`, `doorbell`, `neighbour`], `'Assault' shows how desperate she is.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "Silver ___. I polish it. I dress for it."`, `service`, [`phone`, `plate`, `spoon`], `She treats the phone like an honoured guest.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "Infuriatingly, it sends me ___, wrong numbers."`, `hoaxes`, [`letters`, `messages`, `rings`], `The phone is personified as if it is teasing her.`, P],
+    [C, `'Dusting the Phone' - complete the quote: "Your voice / disappears into my lonely cotton ___."`, `sheets`, [`pillows`, `dreams`, `rooms`], `The bed shows her loneliness.`, P],
+    [C, `What is the speaker in 'Dusting the Phone' waiting for?`, `A phone call from someone she loves`, [`A letter from a bank`, `A visit from her family`, `News from a hospital`], `Her anxiety builds as the call does not come.`, P],
+    [`Language, form and structure`, `What effect do the short, abrupt sentences in 'Dusting the Phone' create?`, `Anxiety and tension`, [`Calm and peace`, `Humour`, `A sense of history`], `They mirror the speaker's racing thoughts.`, P],
+    [`Language, form and structure`, `Why does the speaker 'polish' and 'dress for' the phone?`, `It is personified to show how much she wants the call`, [`She is a cleaner`, `She works in a shop`, `She wants to sell it`], `It shows obsessive behaviour caused by love.`, P],
+
+    // ================= Origin Story =================
+    [C, `'Origin Story' - complete the quote: "my mother and my father / met at the Greyhound bus ___."`, `station`, [`stop`, `terminal`, `depot`], `The poem begins with how the speaker's parents met.`, P],
+    [C, `'Origin Story' - complete the quote: "in the mid-eighties in ___."`, `Chicago`, [`Detroit`, `New York`, `Atlanta`], `The setting places the story in America.`, P],
+    [C, `'Origin Story' - complete the quote: "my mother, all thick glass and afro ___."`, `puff`, [`curls`, `hair`, `braid`], `The list-like description gives a vivid picture of her.`, P],
+    [C, `'Origin Story' - complete the quote: "played tambourine in a Chaka ___ cover band."`, `Khan`, [`Franklin`, `Ross`, `Simone`], `Details about music bring the parents to life.`, P],
+    [C, `'Origin Story' - complete the quote: "my father, all sleeveless and soft ___."`, `eye`, [`heart`, `smile`, `voice`], `The description matches the way the mother is described.`, P],
+    [C, `'Origin Story' - complete the quote: "mimeographed ___ newspapers."`, `communist`, [`political`, `student`, `union`], `The father was an idealistic young rebel.`, P],
+    [C, `'Origin Story' - complete the quote: "love is like a ___ book. it's fragile."`, `comic`, [`picture`, `story`, `library`], `The extended metaphor is the heart of the poem.`, P],
+    [C, `'Origin Story' - complete the quote: "love is ___."`, `paper`, [`glass`, `fragile`, `fire`], `The short line makes a striking, simple claim.`, P],
+    [C, `'Origin Story' - complete the quote: "it never saw polyvinyl, never felt a ___."`, `backing`, [`cover`, `case`, `wrapper`], `Their love was never carefully protected.`, P],
+    [C, `'Origin Story' - complete the quote: "memorized, mishandled, worn thin, ___ rusted."`, `staples`, [`pages`, `edges`, `corners`], `The list shows the comic was well loved and well used.`, P],
+    [C, `'Origin Story' - complete the quote: "a love like that doesn't last / but it has a good ___."`, `ending`, [`start`, `story`, `memory`], `The tone is accepting and positive.`, P],
+    [C, `What is the central metaphor in 'Origin Story'?`, `Love is like a comic book`, [`Love is like a river`, `Love is like a bus journey`, `Love is like a song`], `Comics are fragile, well used and hard to preserve.`, P],
+    [`Language, form and structure`, `In comics, an 'origin story' explains...`, `How a character came to be`, [`How a story ends`, `Who published the comic`, `Where the comic was printed`], `The title suggests the speaker is telling how they came to be.`, P],
+
     // ================= poets =================
     [C, `Who wrote 'Sonnet 29'?`, `Elizabeth Barrett Browning`, [`Christina Rossetti`, `Gillian Clarke`, `Imtiaz Dharker`], `She was a Victorian poet.`, P],
     [C, `Who wrote 'The Schoolboy'?`, `William Blake`, [`William Wordsworth`, `Thomas Hardy`, `Wilfred Owen`], `It appears in Songs of Experience.`, P],
@@ -89,7 +133,6 @@ module.exports = {
     [C, `Who wrote 'Decomposition'?`, `Zulfikar Ghose`, [`Claude McKay`, `Imtiaz Dharker`, `Simon Armitage`], `The poem is about poverty and the poet's reaction to it.`, P],
     [C, `Who wrote 'Catrin'?`, `Gillian Clarke`, [`Imtiaz Dharker`, `Christina Rossetti`, `Seamus Heaney`], `It is about the poet's daughter.`, P],
     [C, `Who wrote 'Blackberry Picking'?`, `Seamus Heaney`, [`Simon Armitage`, `Gillian Clarke`, `Thomas Hardy`], `He was from Northern Ireland.`, P],
-    [C, `Who wrote 'Dusting the Phone'?`, `Imtiaz Dharker`, [`Gillian Clarke`, `Christina Rossetti`, `Zulfikar Ghose`], `She is a poet born in Pakistan and raised in Scotland.`, P],
     [C, `Who wrote 'Remains'?`, `Simon Armitage`, [`Seamus Heaney`, `Wilfred Owen`, `Zulfikar Ghose`], `It is based on the experience of a soldier in Iraq.`, P],
 
     // ================= language, form and structure / themes / context =================
