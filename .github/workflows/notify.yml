@@ -1,0 +1,61 @@
+name: Daily quiz notification
+
+on:
+  schedule:
+    # GitHub schedules run on UTC. Each line fires at BOTH possible UTC hours (GMT and BST);
+    # tools/should-send.sh only lets the run through when it really is 8am (weekdays) / 11am (weekends) in the UK.
+    - cron: '0 7,8 * * 1-5'
+    - cron: '0 10,11 * * 0,6'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Send the notification now, ignoring the time check (for testing)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is it send time in the UK?
+        id: gate
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+        run: |
+          echo "UK time now: $(TZ=Europe/London date)"
+          if [ "$FORCE" = "true" ]; then
+            echo "Manual run: sending regardless of the time."
+            echo "send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "send=$(bash tools/should-send.sh)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send push notification
+        if: steps.gate.outputs.send == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "::error::The NTFY_TOPIC secret is not set (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+          OWNER=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
+          REPO="${GITHUB_REPOSITORY#*/}"
+          QUIZ_URL="https://${OWNER}.github.io/${REPO}/"
+          curl -fsS \
+            -H "Title: Daily GCSE quiz" \
+            -H "Tags: books" \
+            -H "Click: ${QUIZ_URL}" \
+            -H "Actions: view, Start quiz, ${QUIZ_URL}" \
+            -d "Your 10 questions are ready. Tap to start." \
+            "https://ntfy.sh/${NTFY_TOPIC}"
+          echo "Sent to ntfy. Quiz link: ${QUIZ_URL}"
+
+      - name: Skipped (not send time)
+        if: steps.gate.outputs.send != 'true'
+        run: echo "Not 8am (weekday) or 11am (weekend) in the UK, so nothing was sent."

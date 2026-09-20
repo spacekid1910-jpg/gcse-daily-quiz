@@ -1,0 +1,1764 @@
+{
+ "Biology": [
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Eukaryotes and prokaryotes"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Animal and plant cells"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Cell specialisation"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Cell differentiation"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Microscopy"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Culture of microorganisms"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Chromosomes"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Mitosis and the cell cycle"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Stem cells"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Diffusion"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Osmosis"
+  },
+  {
+   "unit": "4.1 Cell biology",
+   "topic": "Active transport"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Principles of organisation"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "The human digestive system"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Enzymes"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Digestion of food"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "The heart and blood vessels"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Blood"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Coronary heart disease"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Health and disease"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Risk factors for non-communicable disease"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Cancer"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Plant tissues"
+  },
+  {
+   "unit": "4.2 Organisation",
+   "topic": "Transpiration and translocation"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Communicable diseases"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Viral, bacterial, fungal and protist diseases"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Human defence systems"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Vaccination"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Antibiotics and painkillers"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Discovery and development of drugs"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Monoclonal antibodies"
+  },
+  {
+   "unit": "4.3 Infection and response",
+   "topic": "Plant disease and defence"
+  },
+  {
+   "unit": "4.4 Bioenergetics",
+   "topic": "Photosynthesis reaction"
+  },
+  {
+   "unit": "4.4 Bioenergetics",
+   "topic": "Rate of photosynthesis"
+  },
+  {
+   "unit": "4.4 Bioenergetics",
+   "topic": "Uses of glucose from photosynthesis"
+  },
+  {
+   "unit": "4.4 Bioenergetics",
+   "topic": "Aerobic and anaerobic respiration"
+  },
+  {
+   "unit": "4.4 Bioenergetics",
+   "topic": "Response to exercise"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Homeostasis"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "The nervous system"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "The brain"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "The eye"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Control of body temperature"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Human endocrine system"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Control of blood glucose"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Maintaining water and nitrogen balance"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Hormones in human reproduction"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Contraception"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Using hormones to treat infertility"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Negative feedback (thyroxine and adrenaline)"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Plant hormones"
+  },
+  {
+   "unit": "4.5 Homeostasis and response",
+   "topic": "Use of plant hormones"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Sexual and asexual reproduction"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "DNA and the genome"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "DNA structure and protein synthesis"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Genetic inheritance"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Inherited disorders"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Sex determination"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Variation"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Evolution by natural selection"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Selective breeding"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Genetic engineering"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Cloning"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Theories of evolution"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Speciation"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Evidence for evolution"
+  },
+  {
+   "unit": "4.6 Inheritance, variation and evolution",
+   "topic": "Classification"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Communities and interdependence"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Adaptations"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Sampling and distribution"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Cycling of materials"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Decomposition"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Impact of environmental change"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Biodiversity and human impact"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Land use and deforestation"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Global warming"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Maintaining biodiversity"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Trophic levels and biomass"
+  },
+  {
+   "unit": "4.7 Ecology",
+   "topic": "Food security and farming"
+  }
+ ],
+ "Chemistry": [
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Atoms, elements and compounds"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Mixtures and separation"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Development of the model of the atom"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Subatomic particles"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Electronic structure"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "The periodic table"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Development of the periodic table"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Group 0, Group 1 and Group 7"
+  },
+  {
+   "unit": "5.1 Atomic structure and the periodic table",
+   "topic": "Transition metals"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Chemical bonds"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Ionic bonding and compounds"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Covalent bonding"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Metallic bonding"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "States of matter and changes of state"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Properties of substances"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Structure and bonding of carbon"
+  },
+  {
+   "unit": "5.2 Bonding, structure and properties",
+   "topic": "Nanoparticles"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Conservation of mass and balanced equations"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Relative formula mass"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Moles"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Amounts of substances in equations"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Limiting reactants"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Concentration of solutions"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Percentage yield and atom economy"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Using concentrations - titrations"
+  },
+  {
+   "unit": "5.3 Quantitative chemistry",
+   "topic": "Volumes of gases"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Reactivity of metals"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Oxidation and reduction in terms of electrons"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Reactions of acids"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "pH, neutralisation and titrations"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Strong and weak acids"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Electrolysis"
+  },
+  {
+   "unit": "5.4 Chemical changes",
+   "topic": "Half equations at electrodes"
+  },
+  {
+   "unit": "5.5 Energy changes",
+   "topic": "Exothermic and endothermic reactions"
+  },
+  {
+   "unit": "5.5 Energy changes",
+   "topic": "Reaction profiles"
+  },
+  {
+   "unit": "5.5 Energy changes",
+   "topic": "Bond energy calculations"
+  },
+  {
+   "unit": "5.5 Energy changes",
+   "topic": "Chemical cells and fuel cells"
+  },
+  {
+   "unit": "5.6 Rate and extent of chemical change",
+   "topic": "Calculating rates of reaction"
+  },
+  {
+   "unit": "5.6 Rate and extent of chemical change",
+   "topic": "Factors affecting rate"
+  },
+  {
+   "unit": "5.6 Rate and extent of chemical change",
+   "topic": "Collision theory and catalysts"
+  },
+  {
+   "unit": "5.6 Rate and extent of chemical change",
+   "topic": "Reversible reactions and equilibrium"
+  },
+  {
+   "unit": "5.6 Rate and extent of chemical change",
+   "topic": "Le Chatelier's Principle"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Crude oil, hydrocarbons and alkanes"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Properties of hydrocarbons and combustion"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Cracking and alkenes"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Reactions of alkenes and alcohols"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Carboxylic acids"
+  },
+  {
+   "unit": "5.7 Organic chemistry",
+   "topic": "Polymers"
+  },
+  {
+   "unit": "5.8 Chemical analysis",
+   "topic": "Pure substances and formulations"
+  },
+  {
+   "unit": "5.8 Chemical analysis",
+   "topic": "Chromatography"
+  },
+  {
+   "unit": "5.8 Chemical analysis",
+   "topic": "Testing for gases"
+  },
+  {
+   "unit": "5.8 Chemical analysis",
+   "topic": "Identification of ions by chemical tests"
+  },
+  {
+   "unit": "5.8 Chemical analysis",
+   "topic": "Instrumental methods"
+  },
+  {
+   "unit": "5.9 Chemistry of the atmosphere",
+   "topic": "The Earth's early atmosphere"
+  },
+  {
+   "unit": "5.9 Chemistry of the atmosphere",
+   "topic": "Greenhouse gases and climate change"
+  },
+  {
+   "unit": "5.9 Chemistry of the atmosphere",
+   "topic": "Carbon footprint"
+  },
+  {
+   "unit": "5.9 Chemistry of the atmosphere",
+   "topic": "Atmospheric pollutants"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Using the Earth's resources"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Reducing use of resources"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Potable water and waste water"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Alternative methods of extracting metals"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Life cycle assessment and corrosion"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "Alloys and materials"
+  },
+  {
+   "unit": "5.10 Using resources",
+   "topic": "The Haber process and fertilisers"
+  }
+ ],
+ "Physics": [
+  {
+   "unit": "6.1 Energy",
+   "topic": "Energy stores and systems"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "Kinetic and potential energy"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "Specific heat capacity"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "Power"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "Conservation and dissipation of energy"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "Efficiency"
+  },
+  {
+   "unit": "6.1 Energy",
+   "topic": "National and global energy resources"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Standard circuit diagram symbols"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Charge and current"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Current, resistance and potential difference"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Resistance of components"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Series and parallel circuits"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Mains electricity"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Energy transfers and power"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "The National Grid"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Static electricity"
+  },
+  {
+   "unit": "6.2 Electricity",
+   "topic": "Electric fields"
+  },
+  {
+   "unit": "6.3 Particle model of matter",
+   "topic": "Density of materials"
+  },
+  {
+   "unit": "6.3 Particle model of matter",
+   "topic": "Changes of state and internal energy"
+  },
+  {
+   "unit": "6.3 Particle model of matter",
+   "topic": "Specific latent heat"
+  },
+  {
+   "unit": "6.3 Particle model of matter",
+   "topic": "Particle motion in gases"
+  },
+  {
+   "unit": "6.3 Particle model of matter",
+   "topic": "Pressure in gases"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "The structure of an atom"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Development of the model of the atom"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Radioactive decay and nuclear radiation"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Half-life"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Hazards and uses of radiation; contamination and irradiation"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Background radiation and half-life uses"
+  },
+  {
+   "unit": "6.4 Atomic structure",
+   "topic": "Nuclear fission and fusion"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Scalar and vector quantities"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Contact and non-contact forces; gravity"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Resultant forces"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Work done and energy transfer"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Forces and elasticity"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Moments, levers and gears"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Pressure in fluids"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Distance, displacement, speed and velocity"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Acceleration"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Distance-time and velocity-time graphs"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Newton's Laws of motion"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Stopping distance"
+  },
+  {
+   "unit": "6.5 Forces",
+   "topic": "Momentum"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Transverse and longitudinal waves"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Wave speed"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Reflection and refraction"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Sound waves"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Waves for detection and exploration"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Electromagnetic waves"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Properties and uses of EM waves"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Lenses"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Visible light and colour"
+  },
+  {
+   "unit": "6.6 Waves",
+   "topic": "Black body radiation"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "Permanent and induced magnets"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "Electromagnetism"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "The motor effect"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "Loudspeakers"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "Induced potential and the generator effect"
+  },
+  {
+   "unit": "6.7 Magnetism and electromagnetism",
+   "topic": "Transformers"
+  },
+  {
+   "unit": "6.8 Space physics",
+   "topic": "The solar system and orbital motion"
+  },
+  {
+   "unit": "6.8 Space physics",
+   "topic": "Life cycle of a star"
+  },
+  {
+   "unit": "6.8 Space physics",
+   "topic": "Red-shift and the Big Bang"
+  }
+ ],
+ "Required Practicals": [
+  {
+   "unit": "Biology",
+   "topic": "RP1: Microscopy"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP2: Microbiology (Triple only)"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP3: Osmosis"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP4: Food tests"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP5: Enzymes"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP6: Photosynthesis"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP7: Reaction time"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP8: Plant responses (Triple only)"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP9: Field investigation"
+  },
+  {
+   "unit": "Biology",
+   "topic": "RP10: Rate of decay (Triple only)"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP1: Making a soluble salt"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP2: Titration"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP3: Electrolysis"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP4: Temperature changes"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP5: Rates of reaction"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP6: Chromatography"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP7: Identifying ions (Triple only)"
+  },
+  {
+   "unit": "Chemistry",
+   "topic": "RP8: Water purification (Triple only)"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP1: Specific heat capacity"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP2: Thermal insulation (Physics only)"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP3: Resistance"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP4: I-V characteristics"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP5: Density"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP6: Force and extension"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP7: Acceleration"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP8: Waves"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP9: Reflection and refraction (Physics only)"
+  },
+  {
+   "unit": "Physics",
+   "topic": "RP10: Infrared radiation (Physics only)"
+  }
+ ],
+ "Maths": [
+  {
+   "unit": "Number",
+   "topic": "Structure and calculation"
+  },
+  {
+   "unit": "Number",
+   "topic": "Factors, multiples and primes"
+  },
+  {
+   "unit": "Number",
+   "topic": "Powers and roots"
+  },
+  {
+   "unit": "Number",
+   "topic": "Fractions, decimals and percentages"
+  },
+  {
+   "unit": "Number",
+   "topic": "Standard form"
+  },
+  {
+   "unit": "Number",
+   "topic": "Surds"
+  },
+  {
+   "unit": "Number",
+   "topic": "Rounding, bounds and accuracy"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Notation, vocabulary and manipulation"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Factorising"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Algebraic fractions"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Rearranging formulae"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Linear equations"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Quadratic equations"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Simultaneous equations"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Inequalities"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Sequences"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Straight-line graphs"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Quadratic and other graphs"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Real-life and kinematic graphs"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Functions"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Transformations of graphs"
+  },
+  {
+   "unit": "Algebra",
+   "topic": "Iteration and proof"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Ratio"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Scale and measures"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Percentages"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Direct and inverse proportion"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Compound measures"
+  },
+  {
+   "unit": "Ratio, proportion and rates of change",
+   "topic": "Gradient as a rate of change"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Angles and properties of shapes"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Constructions, loci and bearings"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Congruence and similarity"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Pythagoras and trigonometry"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Sine and cosine rules"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Perimeter, area and circles"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Circle theorems"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Volume and surface area"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Transformations"
+  },
+  {
+   "unit": "Geometry and measures",
+   "topic": "Vectors"
+  },
+  {
+   "unit": "Probability",
+   "topic": "Basic probability"
+  },
+  {
+   "unit": "Probability",
+   "topic": "Sample spaces and diagrams"
+  },
+  {
+   "unit": "Probability",
+   "topic": "Tree diagrams and conditional probability"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Sampling"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Averages and spread"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Statistical diagrams"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Scatter graphs"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Cumulative frequency and box plots"
+  },
+  {
+   "unit": "Statistics",
+   "topic": "Histograms"
+  }
+ ],
+ "Computer Science": [
+  {
+   "unit": "3.1 Fundamentals of algorithms",
+   "topic": "Representing algorithms"
+  },
+  {
+   "unit": "3.1 Fundamentals of algorithms",
+   "topic": "Decomposition and abstraction"
+  },
+  {
+   "unit": "3.1 Fundamentals of algorithms",
+   "topic": "Searching algorithms"
+  },
+  {
+   "unit": "3.1 Fundamentals of algorithms",
+   "topic": "Sorting algorithms"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Data types"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Programming concepts"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Arithmetic and relational operators"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Boolean operators"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Data structures"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Input/output and file handling"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "String handling"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Random number generation"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Subroutines (procedures and functions)"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Structured programming and passing data"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Robust and secure programming"
+  },
+  {
+   "unit": "3.2 Programming",
+   "topic": "Classification of programming languages"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Number bases"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Converting between bases"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Units of information"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Binary arithmetic and shifts"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Character encoding"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Representing images"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Representing sound"
+  },
+  {
+   "unit": "3.3 Fundamentals of data representation",
+   "topic": "Data compression"
+  },
+  {
+   "unit": "3.4 Computer systems",
+   "topic": "Hardware and software"
+  },
+  {
+   "unit": "3.4 Computer systems",
+   "topic": "Boolean logic"
+  },
+  {
+   "unit": "3.4 Computer systems",
+   "topic": "Systems software"
+  },
+  {
+   "unit": "3.5 Systems architecture",
+   "topic": "Von Neumann architecture"
+  },
+  {
+   "unit": "3.5 Systems architecture",
+   "topic": "The fetch-decode-execute cycle"
+  },
+  {
+   "unit": "3.5 Systems architecture",
+   "topic": "CPU performance"
+  },
+  {
+   "unit": "3.5 Systems architecture",
+   "topic": "Memory and storage"
+  },
+  {
+   "unit": "3.5 Systems architecture",
+   "topic": "Embedded systems"
+  },
+  {
+   "unit": "3.6 Fundamentals of computer networks",
+   "topic": "Networks and their benefits"
+  },
+  {
+   "unit": "3.6 Fundamentals of computer networks",
+   "topic": "Network topologies"
+  },
+  {
+   "unit": "3.6 Fundamentals of computer networks",
+   "topic": "Protocols and layers"
+  },
+  {
+   "unit": "3.6 Fundamentals of computer networks",
+   "topic": "Network security"
+  },
+  {
+   "unit": "3.7 Cyber security",
+   "topic": "Cyber security threats"
+  },
+  {
+   "unit": "3.7 Cyber security",
+   "topic": "Penetration testing"
+  },
+  {
+   "unit": "3.7 Cyber security",
+   "topic": "Detecting and preventing threats"
+  },
+  {
+   "unit": "3.8 Relational databases and SQL",
+   "topic": "Relational databases"
+  },
+  {
+   "unit": "3.8 Relational databases and SQL",
+   "topic": "SQL"
+  },
+  {
+   "unit": "3.9 Ethical, legal and environmental impacts",
+   "topic": "Ethical and cultural issues"
+  },
+  {
+   "unit": "3.9 Ethical, legal and environmental impacts",
+   "topic": "Legislation"
+  },
+  {
+   "unit": "3.9 Ethical, legal and environmental impacts",
+   "topic": "Environmental issues"
+  },
+  {
+   "unit": "Practical programming skills",
+   "topic": "Programming project / skills"
+  }
+ ],
+ "German": [
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Identity and relationships with others"
+  },
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Healthy living and lifestyle"
+  },
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Education and work"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Free-time activities"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Customs, festivals and celebrations"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Celebrity culture"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "Travel and tourism, including places of interest"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "Media and technology"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "The environment and where people live"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Nouns and cases"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Articles and determiners"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Adjectives and adverbs"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Pronouns"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Prepositions"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Present tense"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Perfect and imperfect tense"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Future, conditional and pluperfect"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Subordinating conjunctions and word order"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "The subjunctive and passive"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Negation and questions"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Listening"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Speaking"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Reading"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Writing"
+  },
+  {
+   "unit": "Vocabulary",
+   "topic": "Foundation and Higher word lists"
+  }
+ ],
+ "French": [
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Identity and relationships with others"
+  },
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Healthy living and lifestyle"
+  },
+  {
+   "unit": "Theme 1: People and lifestyle",
+   "topic": "Education and work"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Free-time activities"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Customs, festivals and celebrations"
+  },
+  {
+   "unit": "Theme 2: Popular culture",
+   "topic": "Celebrity culture"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "Travel and tourism, including places of interest"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "Media and technology"
+  },
+  {
+   "unit": "Theme 3: Communication and the world around us",
+   "topic": "The environment and where people live"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Nouns and articles"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Adjectives"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Adverbs"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Pronouns"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Negatives and questions"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Prepositions"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Present tense"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Perfect and imperfect tense"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Near future, future and conditional"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Pluperfect, subjunctive and passive"
+  },
+  {
+   "unit": "Grammar (Higher)",
+   "topic": "Imperative and verb constructions"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Listening"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Speaking"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Reading"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Writing"
+  },
+  {
+   "unit": "Vocabulary",
+   "topic": "Foundation and Higher word lists"
+  }
+ ],
+ "GCSE History": [
+  {
+   "unit": "Paper 1: Medicine in Britain, c1250-present",
+   "topic": "Medieval medicine, c1250-c1500"
+  },
+  {
+   "unit": "Paper 1: Medicine in Britain, c1250-present",
+   "topic": "The Medical Renaissance, c1500-c1700"
+  },
+  {
+   "unit": "Paper 1: Medicine in Britain, c1250-present",
+   "topic": "Medicine in 18th and 19th century Britain"
+  },
+  {
+   "unit": "Paper 1: Medicine in Britain, c1250-present",
+   "topic": "Medicine in modern Britain, c1900-present"
+  },
+  {
+   "unit": "Paper 1: The British sector of the Western Front, 1914-18",
+   "topic": "Context and the trench system"
+  },
+  {
+   "unit": "Paper 1: The British sector of the Western Front, 1914-18",
+   "topic": "Conditions requiring medical treatment"
+  },
+  {
+   "unit": "Paper 1: The British sector of the Western Front, 1914-18",
+   "topic": "The RAMC and the chain of evacuation"
+  },
+  {
+   "unit": "Paper 1: The British sector of the Western Front, 1914-18",
+   "topic": "Medical developments on the Western Front"
+  },
+  {
+   "unit": "Paper 1: The British sector of the Western Front, 1914-18",
+   "topic": "Knowledge, selection and use of sources"
+  },
+  {
+   "unit": "Paper 2: Superpower relations and the Cold War, 1941-91",
+   "topic": "The origins of the Cold War, 1941-58"
+  },
+  {
+   "unit": "Paper 2: Superpower relations and the Cold War, 1941-91",
+   "topic": "Cold War crises, 1958-70"
+  },
+  {
+   "unit": "Paper 2: Superpower relations and the Cold War, 1941-91",
+   "topic": "The end of the Cold War, 1970-91"
+  },
+  {
+   "unit": "Paper 2: Anglo-Saxon and Norman England, c1060-88",
+   "topic": "Anglo-Saxon England and the Norman Conquest, 1060-66"
+  },
+  {
+   "unit": "Paper 2: Anglo-Saxon and Norman England, c1060-88",
+   "topic": "William I in power: securing the kingdom, 1066-87"
+  },
+  {
+   "unit": "Paper 2: Anglo-Saxon and Norman England, c1060-88",
+   "topic": "Norman England, 1066-88"
+  },
+  {
+   "unit": "Paper 3: Weimar and Nazi Germany, 1918-39",
+   "topic": "The Weimar Republic, 1918-29"
+  },
+  {
+   "unit": "Paper 3: Weimar and Nazi Germany, 1918-39",
+   "topic": "Hitler's rise to power, 1919-33"
+  },
+  {
+   "unit": "Paper 3: Weimar and Nazi Germany, 1918-39",
+   "topic": "Nazi control and dictatorship, 1933-39"
+  },
+  {
+   "unit": "Paper 3: Weimar and Nazi Germany, 1918-39",
+   "topic": "Life in Nazi Germany, 1933-39"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Source and interpretation skills"
+  },
+  {
+   "unit": "Exam skills",
+   "topic": "Extended writing and question types"
+  }
+ ],
+ "English Literature": [
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Plot and structure"
+  },
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Characters"
+  },
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Themes"
+  },
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Language, form and structure"
+  },
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Context"
+  },
+  {
+   "unit": "Component 1A: Shakespeare - Macbeth",
+   "topic": "Key quotations"
+  },
+  {
+   "unit": "Component 1B: Poetry Anthology (1789-present)",
+   "topic": "Anthology poems - content and meaning"
+  },
+  {
+   "unit": "Component 1B: Poetry Anthology (1789-present)",
+   "topic": "Language, form and structure"
+  },
+  {
+   "unit": "Component 1B: Poetry Anthology (1789-present)",
+   "topic": "Themes and connections"
+  },
+  {
+   "unit": "Component 1B: Poetry Anthology (1789-present)",
+   "topic": "Comparison skills"
+  },
+  {
+   "unit": "Component 1B: Poetry Anthology (1789-present)",
+   "topic": "Context"
+  },
+  {
+   "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls",
+   "topic": "Plot and structure"
+  },
+  {
+   "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls",
+   "topic": "Characters"
+  },
+  {
+   "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls",
+   "topic": "Themes"
+  },
+  {
+   "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls",
+   "topic": "Language, form and structure"
+  },
+  {
+   "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls",
+   "topic": "Context"
+  },
+  {
+   "unit": "Component 2B: 19th-century prose - A Christmas Carol",
+   "topic": "Plot and structure"
+  },
+  {
+   "unit": "Component 2B: 19th-century prose - A Christmas Carol",
+   "topic": "Characters"
+  },
+  {
+   "unit": "Component 2B: 19th-century prose - A Christmas Carol",
+   "topic": "Themes"
+  },
+  {
+   "unit": "Component 2B: 19th-century prose - A Christmas Carol",
+   "topic": "Language, form and structure"
+  },
+  {
+   "unit": "Component 2B: 19th-century prose - A Christmas Carol",
+   "topic": "Context"
+  },
+  {
+   "unit": "Component 2C: Unseen poetry",
+   "topic": "Analysing an unseen poem"
+  },
+  {
+   "unit": "Component 2C: Unseen poetry",
+   "topic": "Comparing two unseen poems"
+  },
+  {
+   "unit": "Assessment skills",
+   "topic": "Assessment objectives"
+  },
+  {
+   "unit": "Assessment skills",
+   "topic": "Extract to whole-text technique"
+  }
+ ],
+ "English Language": [
+  {
+   "unit": "Component 1: 20th Century Lit Reading and Creative Prose Writing",
+   "topic": "Section A - reading an unseen 20th-century prose extract"
+  },
+  {
+   "unit": "Component 1: 20th Century Lit Reading and Creative Prose Writing",
+   "topic": "Reading question types"
+  },
+  {
+   "unit": "Component 1: 20th Century Lit Reading and Creative Prose Writing",
+   "topic": "Section B - creative prose writing"
+  },
+  {
+   "unit": "Component 1: 20th Century Lit Reading and Creative Prose Writing",
+   "topic": "Creative writing craft"
+  },
+  {
+   "unit": "Component 2: 19th & 21st Century Non-Fiction Reading and Transactional Writing",
+   "topic": "Section A - reading two unseen non-fiction texts"
+  },
+  {
+   "unit": "Component 2: 19th & 21st Century Non-Fiction Reading and Transactional Writing",
+   "topic": "Synthesis and comparison skills"
+  },
+  {
+   "unit": "Component 2: 19th & 21st Century Non-Fiction Reading and Transactional Writing",
+   "topic": "Section B - transactional/persuasive writing"
+  },
+  {
+   "unit": "Component 2: 19th & 21st Century Non-Fiction Reading and Transactional Writing",
+   "topic": "Persuasive devices and structure"
+  },
+  {
+   "unit": "Writing technical accuracy (both papers)",
+   "topic": "Sentence forms and punctuation"
+  },
+  {
+   "unit": "Writing technical accuracy (both papers)",
+   "topic": "Spelling and vocabulary"
+  },
+  {
+   "unit": "Writing technical accuracy (both papers)",
+   "topic": "Paragraphing and organisation"
+  },
+  {
+   "unit": "Component 3: Spoken Language (non-exam assessment)",
+   "topic": "Individual presentation"
+  },
+  {
+   "unit": "Component 3: Spoken Language (non-exam assessment)",
+   "topic": "Responding to questions and feedback"
+  },
+  {
+   "unit": "Component 3: Spoken Language (non-exam assessment)",
+   "topic": "Standard English and delivery"
+  },
+  {
+   "unit": "Exam approach",
+   "topic": "Timing and question marks"
+  },
+  {
+   "unit": "Exam approach",
+   "topic": "Assessment objectives overview"
+  }
+ ]
+}

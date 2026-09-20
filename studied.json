@@ -1,0 +1,41 @@
+{
+  "updated": "2026-09-20",
+  "note": "Only topics listed here are ever asked. Each entry is a whole subject, a unit, or a single topic. Unit and topic names match the tabs of the GCSE Specification Tracker exactly.",
+  "studied": [
+    { "subject": "Biology", "unit": "4.1 Cell biology" },
+    { "subject": "Biology", "unit": "4.2 Organisation" },
+    { "subject": "Biology", "unit": "4.3 Infection and response" },
+    { "subject": "Biology", "unit": "4.4 Bioenergetics" },
+    { "subject": "Biology", "unit": "4.5 Homeostasis and response" },
+    { "subject": "Biology", "unit": "4.6 Inheritance, variation and evolution" },
+
+    { "subject": "Chemistry", "unit": "5.1 Atomic structure and the periodic table" },
+    { "subject": "Chemistry", "unit": "5.2 Bonding, structure and properties" },
+    { "subject": "Chemistry", "unit": "5.3 Quantitative chemistry" },
+    { "subject": "Chemistry", "unit": "5.4 Chemical changes" },
+    { "subject": "Chemistry", "unit": "5.5 Energy changes" },
+    { "subject": "Chemistry", "unit": "5.6 Rate and extent of chemical change" },
+
+    { "subject": "Physics", "unit": "6.1 Energy" },
+    { "subject": "Physics", "unit": "6.2 Electricity" },
+    { "subject": "Physics", "unit": "6.3 Particle model of matter" },
+    { "subject": "Physics", "unit": "6.4 Atomic structure" },
+    { "subject": "Physics", "unit": "6.5 Forces" },
+
+    { "subject": "Computer Science", "unit": "3.1 Fundamentals of algorithms" },
+    { "subject": "Computer Science", "unit": "3.2 Programming" },
+    { "subject": "Computer Science", "unit": "3.3 Fundamentals of data representation" },
+    { "subject": "Computer Science", "unit": "3.4 Computer systems" },
+    { "subject": "Computer Science", "unit": "3.5 Systems architecture" },
+    { "subject": "Computer Science", "unit": "3.9 Ethical, legal and environmental impacts" },
+
+    { "subject": "GCSE History", "unit": "Paper 1: Medicine in Britain, c1250-present" },
+    { "subject": "GCSE History", "unit": "Paper 1: The British sector of the Western Front, 1914-18" },
+    { "subject": "GCSE History", "unit": "Paper 2: Superpower relations and the Cold War, 1941-91" },
+    { "subject": "GCSE History", "unit": "Paper 2: Anglo-Saxon and Norman England, c1060-88" },
+
+    { "subject": "English Literature", "unit": "Component 1A: Shakespeare - Macbeth" },
+    { "subject": "English Literature", "unit": "Component 1B: Poetry Anthology (1789-present)" },
+    { "subject": "English Literature", "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls" }
+  ]
+}
