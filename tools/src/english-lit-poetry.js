@@ -64,7 +64,22 @@ module.exports = {
     [C, `'Catrin' - complete the quote: "I can remember you, our first fierce ___."`, `confrontation`, [`argument`, `meeting`, `embrace`], `The poem explores the tension between mother and daughter.`, P],
     [C, `'Catrin' - complete the quote: "The tight red rope of love which we both ___."`, `fought`, [`held`, `tied`, `felt`], `The rope suggests the umbilical cord and the struggle for independence.`, P],
 
+    // ================= Sonnet 29 (Elizabeth Barrett Browning) =================
+    [C, `'Sonnet 29' - complete the quote: "I think of thee! - my thoughts do twine and ___."`, `bud`, [`grow`, `climb`, `bloom`], `The speaker's thoughts spread like a plant.`, P],
+    [C, `'Sonnet 29' - complete the quote: "About thee, as wild ___, about a tree."`, `vines`, [`roses`, `weeds`, `ivy`], `The extended metaphor: her thoughts are vines and her lover is the tree.`, P],
+    [C, `'Sonnet 29' - complete the quote: "Except the straggling ___ which hides the wood."`, `green`, [`leaves`, `growth`, `vines`], `Her thoughts have overgrown and hidden him.`, P],
+    [C, `'Sonnet 29' - complete the quote: "Yet, O my ___, be it understood."`, `palm-tree`, [`oak`, `willow`, `cedar`], `She addresses her lover as a strong, tall tree.`, P],
+    [C, `'Sonnet 29' - complete the quote: "Rather, instantly / Renew thy ___."`, `presence`, [`love`, `memory`, `strength`], `She wants his real presence, not just thoughts of him.`, P],
+    [C, `'Sonnet 29' - complete the quote: "Rustle thy ___ and set thy trunk all bare."`, `boughs`, [`leaves`, `roots`, `branches`], `She wants her lover to shake off her overgrown thoughts.`, P],
+    [C, `'Sonnet 29' - complete the quote: "Drop heavily down, - burst, shattered, ___!"`, `everywhere`, [`scattered`, `broken`, `fallen`], `The violent verbs show her impatience to see him.`, P],
+    [C, `Which is the final line of 'Sonnet 29'?`, `I do not think of thee - I am too near thee.`, [`I shall but love thee better after death.`, `I think of thee always - I am too far from thee.`, `I cannot think of thee - I am too full of thee.`], `Being with him removes the need to think of him.`, P],
+    [C, `What is the extended metaphor in 'Sonnet 29'?`, `Her thoughts are vines growing over her lover, who is a tree`, [`Her love is a river`, `Her lover is a rose`, `Her thoughts are a storm`], `She wants the real tree, not the covering vines.`, P],
+    [C, `'Sonnet 29' comes from which collection?`, `Sonnets from the Portuguese`, [`Songs of Innocence`, `Goblin Market`, `Aurora Leigh`], `The collection was published in 1850.`, P],
+    [`Language, form and structure`, `'Sonnet 29' follows which sonnet form?`, `Petrarchan (an octave followed by a sestet)`, [`Shakespearean (three quatrains and a couplet)`, `Villanelle`, `Free verse`], `The rhyme scheme is ABBAABBA CDCDCD.`, P],
+    [`Themes and connections`, `In 'Sonnet 29', what does the speaker want most?`, `Her lover's real presence rather than thoughts of him`, [`To forget her lover`, `To leave the countryside`, `A longer poem to describe him`], `Real presence is better than memory.`, P],
+
     // ================= poets =================
+    [C, `Who wrote 'Sonnet 29'?`, `Elizabeth Barrett Browning`, [`Christina Rossetti`, `Gillian Clarke`, `Imtiaz Dharker`], `She was a Victorian poet.`, P],
     [C, `Who wrote 'The Schoolboy'?`, `William Blake`, [`William Wordsworth`, `Thomas Hardy`, `Wilfred Owen`], `It appears in Songs of Experience.`, P],
     [C, `Who wrote 'I Wandered Lonely as a Cloud'?`, `William Wordsworth`, [`William Blake`, `Thomas Hardy`, `Seamus Heaney`], `He is a Romantic poet.`, P],
     [C, `Who wrote 'Cousin Kate'?`, `Christina Rossetti`, [`Claude McKay`, `Gillian Clarke`, `Imtiaz Dharker`], `She was a Victorian poet.`, P],
