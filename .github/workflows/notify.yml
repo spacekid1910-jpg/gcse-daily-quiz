@@ -1,17 +1,24 @@
 name: Daily quiz notification
 
+# How this works:
+#   GitHub's scheduler is "best effort" and can run hours late, so it is NOT trusted with the exact time.
+#   Instead, every evening this workflow asks ntfy to deliver TOMORROW MORNING's notification at exactly
+#   08:00 (weekdays) or 11:00 (weekends) UK time. ntfy then delivers it on the dot, even if GitHub is late.
+
 on:
   schedule:
-    # GitHub schedules run on UTC. Each line fires at BOTH possible UTC hours (GMT and BST);
-    # tools/should-send.sh only lets the run through when it really is 8am (weekdays) / 11am (weekends) in the UK.
-    - cron: '0 7,8 * * 1-5'
-    - cron: '0 10,11 * * 0,6'
+    # Two evening runs on off-peak minutes. The second is a backup; a cache marker stops it queuing a duplicate.
+    - cron: '47 19 * * *'
+    - cron: '23 22 * * *'
   workflow_dispatch:
     inputs:
-      force:
-        description: 'Send the notification now, ignoring the time check (for testing)'
-        type: boolean
-        default: true
+      mode:
+        description: 'now = buzz my phone immediately (test).  schedule = queue the next 8am/11am notification.'
+        type: choice
+        options:
+          - now
+          - schedule
+        default: now
 
 permissions:
   contents: read
@@ -19,26 +26,33 @@ permissions:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    env:
+      SCHEDULE_MODE: ${{ github.event_name == 'schedule' || inputs.mode == 'schedule' }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Is it send time in the UK?
-        id: gate
-        env:
-          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+      - name: Work out the next 8am / 11am slot (UK time)
+        id: next
         run: |
-          echo "UK time now: $(TZ=Europe/London date)"
-          if [ "$FORCE" = "true" ]; then
-            echo "Manual run: sending regardless of the time."
-            echo "send=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "send=$(bash tools/should-send.sh)" >> "$GITHUB_OUTPUT"
-          fi
+          node tools/next-send.js --kv >> "$GITHUB_OUTPUT"
+          echo "Next slot: $(node tools/next-send.js)"
+
+      - name: Already queued for that morning?
+        id: seen
+        if: env.SCHEDULE_MODE == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .queued-marker
+          key: quiz-queued-${{ steps.next.outputs.date }}
+          lookup-only: true
 
       - name: Send push notification
-        if: steps.gate.outputs.send == 'true'
+        id: send
+        if: steps.seen.outputs.cache-hit != 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SEND_UNIX: ${{ steps.next.outputs.unix }}
+          SEND_ISO: ${{ steps.next.outputs.iso }}
         run: |
           if [ -z "$NTFY_TOPIC" ]; then
             echo "::error::The NTFY_TOPIC secret is not set (Settings > Secrets and variables > Actions)."
@@ -47,15 +61,34 @@ jobs:
           OWNER=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
           REPO="${GITHUB_REPOSITORY#*/}"
           QUIZ_URL="https://${OWNER}.github.io/${REPO}/"
-          curl -fsS \
+          DELAY=()
+          if [ "$SCHEDULE_MODE" = "true" ]; then
+            DELAY=(-H "Delay: ${SEND_UNIX}")
+            echo "Queuing for ${SEND_ISO} (UTC) - ntfy will deliver it then."
+          else
+            echo "Test run: sending immediately."
+          fi
+          curl -fsS "${DELAY[@]}" \
             -H "Title: Daily GCSE quiz" \
             -H "Tags: books" \
             -H "Click: ${QUIZ_URL}" \
             -H "Actions: view, Start quiz, ${QUIZ_URL}" \
             -d "Your 10 questions are ready. Tap to start." \
             "https://ntfy.sh/${NTFY_TOPIC}"
-          echo "Sent to ntfy. Quiz link: ${QUIZ_URL}"
+          echo
+          echo "Done. Quiz link: ${QUIZ_URL}"
 
-      - name: Skipped (not send time)
-        if: steps.gate.outputs.send != 'true'
-        run: echo "Not 8am (weekday) or 11am (weekend) in the UK, so nothing was sent."
+      - name: Remember that this morning is queued
+        if: steps.send.outcome == 'success' && env.SCHEDULE_MODE == 'true'
+        run: echo queued > .queued-marker
+
+      - name: Save the marker
+        if: steps.send.outcome == 'success' && env.SCHEDULE_MODE == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .queued-marker
+          key: quiz-queued-${{ steps.next.outputs.date }}
+
+      - name: Skipped (already queued)
+        if: steps.seen.outputs.cache-hit == 'true'
+        run: echo "That morning's notification is already queued, so nothing was sent."
