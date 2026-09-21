@@ -7,8 +7,12 @@ at the end, with the right answers and a one-line explanation for each.
 It runs in the cloud (GitHub), so it works when your laptop is off.
 
 ```
-GitHub Actions (scheduler)  -->  ntfy (push to your phone)  -->  tap  -->  quiz page (GitHub Pages)
+GitHub Actions (each evening)  -->  ntfy (holds it until 8am / 11am)  -->  your phone  -->  tap  -->  quiz page (GitHub Pages)
 ```
+
+**Why it's set up this way:** GitHub's scheduler is "best effort" and can run hours late, so it isn't trusted with the exact time.
+Each evening it just *queues tomorrow morning's* notification with ntfy, and ntfy delivers it at exactly 8am (weekdays) or 11am
+(weekends) UK time, including across the clocks changing. If GitHub is late, there's still plenty of slack.
 
 ## One-time setup
 
@@ -37,9 +41,11 @@ GitHub Actions (scheduler)  -->  ntfy (push to your phone)  -->  tap  -->  quiz 
    After about a minute your quiz is live at `https://YOUR-USERNAME.github.io/gcse-daily-quiz/`.
 
 ### 3. Test it
-Repo > **Actions** > *Daily quiz notification* > **Run workflow**. Your phone should buzz within seconds. Tap the notification to open the quiz.
+Repo > **Actions** > *Daily quiz notification* > **Run workflow**. There are two modes:
+- **now** (default): buzzes your phone immediately, to check the connection. Tap the notification to open the quiz.
+- **schedule**: queues the next 8am / 11am notification straight away.
 
-After that it runs by itself every day.
+After the first run it queues each morning's notification by itself every evening.
 
 ## Changing what you're asked about
 
@@ -67,7 +73,8 @@ Then run `node tools/build-questions.js`. It checks every question, prints cover
 Add `--missing` to list tracker topics that have no questions yet.
 
 ## Good to know
-- The scheduler can run a few minutes late. That's normal for GitHub.
+- GitHub's scheduler can run late (on 21 Sept 2026 it ran about 6 hours late), which is why the exact time is handled by ntfy, not GitHub.
+- Test the timing logic with `node tools/next-send.js --test` (it covers weekdays, weekends and the clocks changing).
 - GitHub pauses scheduled workflows after 60 days with no activity in the repo. Updating `studied.json` counts as activity. If the
   notifications ever stop, open the **Actions** tab and click *Enable workflow*.
 - Your scores, streak and history are stored **on your phone's browser**, so use the same browser each time.
