@@ -104,7 +104,9 @@
 (function () {
   'use strict';
 
-  var N = 10;
+  // The daily quiz had 10 questions until 4 Oct 2026; from 5 Oct it has 20. Subject quizzes and practice rounds are always 20.
+  var N = 20, DAILY_OLD = 10, DAILY_FROM = '2026-10-05';
+  function dailyCount(dateStr) { return dateStr >= DAILY_FROM ? N : DAILY_OLD; }
   var KEY = 'gcseDailyQuiz.v1';
   var params = new URLSearchParams(location.search);
   var SUBJECT_COLOURS = {
@@ -155,7 +157,7 @@
   }
 
   // ---------- question selection ----------
-  function pickSet(pool, rng, seen, today) {
+  function pickSet(pool, rng, seen, today, n) {
     var by = {};
     pool.forEach(function (q) { (by[q.subject] = by[q.subject] || []).push(q); });
     var subjects = shuffle(Object.keys(by), rng);
@@ -168,9 +170,9 @@
     });
     var chosen = [], usedTopics = {};
     var progressed = true;
-    while (chosen.length < N && progressed) {
+    while (chosen.length < n && progressed) {
       progressed = false;
-      for (var i = 0; i < subjects.length && chosen.length < N; i++) {
+      for (var i = 0; i < subjects.length && chosen.length < n; i++) {
         var L = lists[subjects[i]];
         if (!L.length) continue;
         var idx = -1;
@@ -183,9 +185,25 @@
     return shuffle(chosen, rng);
   }
 
+  // One subject only: spread the questions across its topics.
+  function pickFromSubject(pool, rng, n) {
+    var by = {};
+    pool.forEach(function (q) { (by[q.topic] = by[q.topic] || []).push(q); });
+    var topics = shuffle(Object.keys(by), rng), lists = {};
+    topics.forEach(function (t) { lists[t] = shuffle(by[t], rng); });
+    var chosen = [], progressed = true;
+    while (chosen.length < n && progressed) {
+      progressed = false;
+      for (var i = 0; i < topics.length && chosen.length < n; i++) {
+        if (lists[topics[i]].length) { chosen.push(lists[topics[i]].shift()); progressed = true; }
+      }
+    }
+    return shuffle(chosen, rng);
+  }
+
   // ---------- app state ----------
   var store = load();
-  var today = ukDate();
+  var today = /^\d{4}-\d{2}-\d{2}$/.test(params.get('today') || '') ? params.get('today') : ukDate();   // ?today=YYYY-MM-DD is for testing
   var bank = {};       // id -> question
   var studied = [];
   var run = null;      // { mode, ids, opts, answers, idx, done, score }
@@ -224,14 +242,16 @@
     save(store);
   }
 
-  function newRun(mode, seedStr) {
+  function newRun(mode, seedStr, subject) {
     var pool = Object.keys(bank).map(function (k) { return bank[k]; }).filter(isStudied);
+    if (subject) pool = pool.filter(function (q) { return q.subject === subject; });
     if (!pool.length) return null;
     var rng = rngFor(seedStr);
-    var qs = pickSet(pool, rng, store.seen || {}, today);
+    var qs = subject ? pickFromSubject(pool, rng, N)
+      : pickSet(pool, rng, store.seen || {}, today, mode === 'daily' ? dailyCount(today) : N);
     var opts = {};
     qs.forEach(function (q) { opts[q.id] = shuffle([q.a].concat(q.w), rngFor(seedStr + '|' + q.id)); });
-    return { mode: mode, ids: qs.map(function (q) { return q.id; }), opts: opts, answers: {}, idx: 0, done: false, score: 0 };
+    return { mode: mode, subject: subject || null, ids: qs.map(function (q) { return q.id; }), opts: opts, answers: {}, idx: 0, done: false, score: 0 };
   }
 
   function streakInfo() {
@@ -267,10 +287,48 @@
     var chips = el('div', { class: 'chips' });
     subjects.forEach(function (s) { chips.appendChild(chip(s)); });
     card.appendChild(chips);
-    if (qs.length < N) card.appendChild(el('div', { class: 'small muted', style: 'margin-top:10px', text: 'Only ' + qs.length + ' questions are available from your studied topics so far.' }));
+    if (qs.length < dailyCount(today)) card.appendChild(el('div', { class: 'small muted', style: 'margin-top:10px', text: 'Only ' + qs.length + ' questions are available from your studied topics so far.' }));
     card.appendChild(el('button', { class: 'primary', text: 'Start quiz', onclick: function () { renderQuestion(); } }));
     app.appendChild(card);
+    app.appendChild(subjectCard());
     renderHistory();
+  }
+
+  function availableSubjects() {
+    var counts = {};
+    Object.keys(bank).forEach(function (k) { var q = bank[k]; if (isStudied(q)) counts[q.subject] = (counts[q.subject] || 0) + 1; });
+    var order = Object.keys(SUBJECT_COLOURS);
+    return Object.keys(counts).sort(function (a, b) {
+      var ia = order.indexOf(a), ib = order.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    }).map(function (s) { return { subject: s, count: counts[s] }; });
+  }
+
+  function subjectCard() {
+    var card = el('div', { class: 'card' });
+    card.appendChild(el('div', { style: 'font-weight:700', text: 'Subject quiz' }));
+    card.appendChild(el('div', { class: 'small muted', style: 'margin-top:3px', text: 'Pick one subject and answer ' + N + ' questions on it.' }));
+    card.appendChild(el('button', { class: 'ghost', style: 'width:100%;margin-top:12px', text: 'Choose a subject', onclick: renderSubjectMenu }));
+    return card;
+  }
+
+  function renderSubjectMenu() {
+    clear();
+    var card = el('div', { class: 'card' });
+    card.appendChild(el('div', { style: 'font-size:20px;font-weight:700', text: 'Subject quiz' }));
+    card.appendChild(el('div', { class: 'muted', style: 'margin-top:4px', text: 'Choose a subject for ' + N + ' random questions from the topics you have studied. These do not count towards your daily streak or history.' }));
+    availableSubjects().forEach(function (x) {
+      var dot = el('span', { class: 'l', text: '' });
+      dot.style.background = SUBJECT_COLOURS[x.subject] || '#1f4e79';
+      var b = el('button', { class: 'opt', style: 'margin-top:10px', onclick: function () {
+        var r = newRun('subject', 'subject|' + x.subject + '|' + Date.now(), x.subject);
+        if (r) { run = r; renderQuestion(); }
+      } }, [dot, el('span', { text: niceSubject(x.subject) + '  (' + x.count + ' questions available)' })]);
+      card.appendChild(b);
+    });
+    card.appendChild(el('button', { class: 'ghost', style: 'width:100%;margin-top:14px', text: 'Back', onclick: showDaily }));
+    app.appendChild(card);
+    window.scrollTo(0, 0);
   }
 
   function renderHistory() {
@@ -281,7 +339,7 @@
       var d = addDays(today, -i);
       var rec = store.days[d];
       var dow = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short' }).format(new Date(d + 'T12:00:00Z'));
-      var b = el('b', { text: rec && rec.done ? String(rec.score) : '-' });
+      var b = el('b', { text: rec && rec.done ? rec.score + '/' + rec.ids.length : '-', style: 'font-size:12px' });
       if (!(rec && rec.done)) b.className = 'empty';
       h.appendChild(el('div', null, [dow, b]));
     }
@@ -311,6 +369,7 @@
       } }, [el('span', { class: 'l', text: letters[i] }), el('span', { text: o })]);
       card.appendChild(b);
     });
+    if (run.mode !== 'daily') card.appendChild(el('button', { class: 'ghost', style: 'width:100%;margin-top:12px', text: 'Leave quiz', onclick: function () { if (confirm('Leave this quiz? Your answers so far will be lost.')) showDaily(); } }));
     app.appendChild(card);
 
     var answered = run.answers[q.id] !== undefined;
@@ -354,6 +413,7 @@
     card.appendChild(el('div', { class: 'score' }, [el('b', { text: String(s) }), el('span', { text: '/' + total })]));
     card.appendChild(el('div', { class: 'verdict', text: verdict }));
     if (run.mode === 'practice') card.appendChild(el('div', { class: 'small muted', style: 'text-align:center', text: 'Practice round - not saved to your history' }));
+    if (run.mode === 'subject') card.appendChild(el('div', { class: 'small muted', style: 'text-align:center', text: niceSubject(run.subject) + ' quiz - not saved to your history' }));
 
     var wrong = [];
     run.ids.forEach(function (id) {
@@ -390,11 +450,14 @@
     });
     app.appendChild(rev);
 
-    var again = el('button', { class: 'primary', text: 'Practise 10 more', onclick: function () {
-      var r = newRun('practice', 'practice|' + Date.now());
+    var subj = run.mode === 'subject' ? run.subject : null;
+    var again = el('button', { class: 'primary', text: subj ? 'Another ' + N + ' ' + niceSubject(subj) + ' questions' : 'Practise ' + N + ' more', onclick: function () {
+      var r = subj ? newRun('subject', 'subject|' + subj + '|' + Date.now(), subj) : newRun('practice', 'practice|' + Date.now());
       if (r) { run = r; renderQuestion(); }
     } });
     app.appendChild(again);
+    app.appendChild(el('button', { class: 'ghost', style: 'width:100%;margin-top:10px', text: 'Subject quiz', onclick: renderSubjectMenu }));
+    if (run.mode !== 'daily') app.appendChild(el('button', { class: 'ghost', style: 'width:100%;margin-top:10px', text: 'Back to daily quiz', onclick: showDaily }));
     if (run.mode === 'daily') renderHistory();
   }
 
@@ -414,6 +477,10 @@
       try { history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '')); } catch (e) {}
     }
 
+    showDaily();
+  }
+
+  function showDaily() {
     updateHeader();
     var rec = store.days[today];
     if (rec) {

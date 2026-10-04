@@ -73,7 +73,7 @@ jobs:
             -H "Tags: books" \
             -H "Click: ${QUIZ_URL}" \
             -H "Actions: view, Start quiz, ${QUIZ_URL}" \
-            -d "Your 10 questions are ready. Tap to start." \
+            -d "Your daily GCSE questions are ready. Tap to start." \
             "https://ntfy.sh/${NTFY_TOPIC}"
           echo
           echo "Done. Quiz link: ${QUIZ_URL}"

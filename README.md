@@ -1,8 +1,11 @@
 # Daily GCSE Quiz
 
 A phone notification at **8am on weekdays and 11am at weekends (UK time)**. Tap it and a page opens with
-**10 multiple-choice questions** from topics you've studied, mixed across subjects. You get your score out of 10
+**20 multiple-choice questions** (10 before 5 Oct 2026) from topics you've studied, mixed across subjects. You get your score
 at the end, with the right answers and a one-line explanation for each.
+
+There is also a **Subject quiz**: on the quiz page choose *Subject quiz*, pick one subject (e.g. Physics) and answer 20 questions
+on just that subject. Subject quizzes are separate from the daily quiz, so they don't touch your streak or history. You can repeat them as often as you like.
 
 It runs in the cloud (GitHub), so it works when your laptop is off.
 
@@ -80,4 +83,4 @@ Add `--missing` to list tracker topics that have no questions yet.
 - Your scores, streak and history are stored **on your phone's browser**, so use the same browser each time.
 - The page normally loads `questions.json` and `studied.json` live, so changes take effect as soon as they're pushed. It also carries a built-in
   copy (refreshed by `node tools/build-questions.js`), so opening `index.html` straight from your computer still works.
-- Test the page locally with `node tools/serve.js`, then open http://localhost:5173. Add `?all=1` to include every topic, or `?reset=1` to clear today's attempt.
+- Test the page locally with `node tools/serve.js`, then open http://localhost:5173. Add `?all=1` to include every topic, `?reset=1` to clear today's attempt, or `?today=2026-10-05` to pretend it's another date.
