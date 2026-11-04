@@ -1,0 +1,1077 @@
+GERMAN VOCAB FOR MEMRISE  -  BY TOPIC, EACH WORD ONCE
+============================================================
+
+One "## LEVEL" block = one Memrise level. Word Delimiter = Tab.
+Word column = German, Definition = English. Nothing here exceeds
+100 rows, so each block is a single paste. Every word appears in
+just the first topic it belongs to, so the whole set = 958 cards.
+
+## LEVEL: Theme 1 - Food and drink
+heiß	hot
+kalt	cold
+lecker	tasty, delicious
+scharf	sharp, spicy, hot
+süß	sweet, sugary, cute
+warm	warm
+frisch	fresh, freshly
+gesund	healthy, healthily
+die Cola	cola
+die Flasche	bottle
+die Gesundheit	health
+die Karte	card, ticket, menu
+die Küche	kitchen, cuisine
+die Milch	milk
+die Speisekarte	menu
+die Wurst	sausage
+der Durst	thirst
+der Fisch	fish
+der Hunger	hunger
+der Imbiss	snack, refreshment, snack bar, take away, diner
+der Kaffee	coffee
+der Käse	cheese
+der Kuchen	cake
+der Veganer	vegan
+der Vegetarier	vegetarian
+der Wein	wine
+der Zucker	sugar
+das Bier	beer
+das Brot	bread
+das Ei	egg
+das Eis	ice, ice cream
+das Essen	food, meal
+das Fastfood	fast food
+das Fleisch	meat, flesh
+das Frühstück	breakfast
+das Gemüse	vegetables
+das Glas	glass
+das Hähnchen	chicken
+das Kilogramm	kilo, kilogram
+das Obst	fruit
+das Restaurant	restaurant
+das Stück	piece, play (theatre)
+das Wasser	water
+die Pommes (frites)	chips, fries
+bestellen	to order, reserve
+essen	to eat
+kochen	to cook, boil
+trinken	to drink
+die Ernährung	food, diet, nutrition
+das Gericht	dish
+das Getränk	drink
+das Produkt	product
+das Protein	protein
+enthalten	to contain
+schmecken	to taste
+
+## LEVEL: Theme 1 - Sport and exercise
+aktiv	active, energetic
+jung	young
+sportlich	sporty, athletic
+stark	strong
+früh	early
+schnell	quickly, fast
+die Aktivität	activity
+die Bewegung	movement, motion, exercise
+die Energie	energy
+die Fitness	fitness
+die Freizeit	spare time, free time, leisure time
+die Leistung	performance, achievement
+die Luft	air
+die Sonne	sun
+die Wissenschaft	science
+der Basketball	basketball
+der Club	club
+der Fußball	football, soccer
+der Kilometer	kilometre
+der Lauf	course, run, race
+der Muskel	muscle
+der Park	park
+der Schutz	protection, conservation
+der Sport	sport, PE
+der Trainer	coach
+das Bad	bath, bathroom, spa
+das Fahrrad	bicycle
+das Fitness-Studio	gym
+das Meer	sea, ocean
+das Mitglied	member
+das Tennis	tennis
+das Training	training
+das Zentrum	centre, middle
+abnehmen	to lose weight, decrease, reduce
+aufstehen	to stand up, get up
+bewegen	to move
+fahren	to go (by transport), drive
+joggen	to jog
+laufen	to run, walk
+schwimmen	to swim
+spazieren	to (go for a) walk, stroll
+spielen	to play
+springen	to jump
+tanzen	to dance
+treiben	to do (sport), drive, pursue
+verbessern	to improve, correct
+wandern	to (go on a) walk or hike, ramble
+körperlich	physical, physically
+die Jugend	youth
+die Kraft	strength, power
+die Turnhalle	gymnasium
+die Übung	exercise, practice
+aufgeben	to give up, quit
+führen	to lead, guide
+sich entspannen	to relax, chill out
+verhindern	to prevent
+
+## LEVEL: Theme 1 - Illnesses and accidents
+gefährlich	dangerous, risky
+kaputt	broken, ruined
+müde	tired
+schwach	weak
+schwer	difficult, hard, heavy
+tot	dead
+die Ärztin	doctor (f)
+die Droge	drug
+die Gefahr	danger, risk, threat
+die Krankheit	illness, disease
+der Arzt	doctor (m)
+das Bett	bed
+das Gefühl	feeling
+das Krankenhaus	hospital
+das Leben	life
+die Schmerzen	pains, aches
+besuchen	to visit
+brechen	to break
+fühlen	to feel
+leiden	to suffer (from) (as a result of)
+retten	to save, rescue
+schlafen	to sleep
+sich kümmern um	to take care of, be concerned about
+sorgen	to care, to worry
+sterben	to die (from)
+verletzen	to injure, hurt
+vermeiden	to avoid
+zunehmen	to increase, put on weight
+bewusst	conscious, aware
+medizinisch	medical
+die Krise	crisis
+die Ursache	cause, reason
+der Doktor	doctor
+der Patient	patient
+der Schmerz	pain, ache
+der Termin	appointment, date, meeting
+der Tod	death
+der Unfall	accident, crash
+das Blut	blood
+das Medikament	medicine
+legen	to lay, put
+pflegen	to care, cultivate, nurse
+spüren	to sense, notice, feel
+töten	to kill
+untersuchen	to examine, investigate, research
+warnen	to warn (of/about)
+
+## LEVEL: Theme 1 - Body parts
+die Hand	hand
+der Arm	arm
+der Fuß	foot
+der Kopf	head
+der Körper	body
+der Mund	mouth
+der Rücken	back
+das Auge	eye
+das Bein	leg
+das Gesicht	face
+das Herz	heart
+das Ohr	ear
+die Haut	skin
+die Nase	nose
+die Schulter	shoulder
+der Bauch	belly
+der Finger	finger
+der Zahn	tooth
+das Knie	knee, knees
+
+## LEVEL: Theme 1 - Stress and problems
+betrunken	drunk
+faul	lazy, idle
+krank	sick, ill
+die Angst	fear, anxiety
+die Klasse	class
+die Zigarette	cigarette
+der Alkohol	alcohol
+der Kurs	course
+das Buch	book
+das Handy	mobile phone
+fernsehen	to watch television
+lesen	to read
+rauchen	to smoke
+süchtig	addicted, hooked on
+übergewichtig	overweight
+die Diskussion	discussion, debate
+der Druck	pressure, stress
+aufhören	to stop
+drohen	to threaten
+verzichten auf	to do without
+
+## LEVEL: Theme 1 - Education
+die Ausbildung	training, education, development
+die Schule	school
+die Universität	university
+die Bildung	education, learning, creation, formation
+die Grundschule	primary school
+die Lehre	apprenticeship
+die Oberstufe	sixth form
+der Abschluss	school leaving certificate, degree, diploma
+das Abitur	school leaving exam, A levels
+das Gymnasium	grammar school
+
+## LEVEL: Theme 1 - School uniform
+die Hose	trousers
+die Jacke	jacket
+die Kleidung	clothes, outfit
+die Tasche	pocket, bag
+die Uniform	uniform
+der Rock	skirt, rock music
+das Hemd	shirt
+das Kleid	dress
+das T-Shirt	T-shirt
+tragen	to carry, wear
+
+## LEVEL: Theme 1 - School subjects and timetable
+die Biologie	biology
+die Chemie	chemistry
+die Erdkunde	geography
+die Geschichte	history, story
+die Kunst	art
+die Mathematik/Mathe	mathematics/maths
+die Musik	music
+die Pause	pause, break
+die Physik	physics
+die Religion	religion
+die Sprache	language, speech
+die Stunde	hour, lesson, period (school timetable)
+die Technik	technology, technique
+die Technologie	technology
+die Wahl	choice, election, selection
+der Alltag	daily routine, everyday life
+der Unterricht	lessons, classes, teaching, tuition
+das Fach	subject
+das Theater	theatre, drama
+beginnen	to begin, start
+dauern	to last, take (time)
+verlassen	to leave
+
+## LEVEL: Theme 1 - Extra-curricular activities
+musikalisch	musical
+praktisch	practical, useful
+digital	digital, digitally
+freiwillig	voluntary, voluntarily
+kreativ	creative, creatively
+draußen	outside, outdoors
+online	online
+die Erfahrung	experience
+die Fahrt	drive, trip
+die Gruppe	group, band
+die Mannschaft	team
+die Reise	journey, trip, voyage
+die Rolle	role, part
+der Besuch	visit
+der Freund	friend
+der Verein	association, club, society
+der Wettbewerb	competition, contest
+das Ausland	foreign countries, abroad
+das Europa	Europe
+das Instrument	instrument
+das Interesse	interest
+das Team	team
+helfen	to help
+lernen	to learn, study
+organisieren	to organise
+reisen	to travel
+schreiben	to write (to)
+singen	to sing
+üben	to practise
+die Bühne	stage
+die Herausforderung	challenge
+die Zusammenarbeit	cooperation, teamwork
+der Ausflug	excursion, trip, outing
+der Austausch	exchange, replacement
+leisten	to perform, achieve, do
+malen	to paint
+zeichnen	to draw
+
+## LEVEL: Theme 1 - School facilities and transport
+modern	modern, up-to-date
+sauber	clean
+schmutzig	dirty, filthy
+die Bank	bank, bench
+die Kantine	canteen, cafeteria
+die Toilette	toilet
+der Bus	bus
+der Computer	computer
+der Gang	corridor, hallway
+der Raum	room, space
+der Stuhl	chair
+das Blatt	sheet, leaf
+das Büro	office
+das Gebäude	building, buildings
+das Internet	internet
+das Papier	paper
+das Telefon	telephone
+das Zimmer	room
+der Hof	yard
+
+## LEVEL: Theme 1 - Opinions of school and teachers
+frei	free, available
+gemein	mean, cruel, nasty
+hilfsbereit	helpful, co-operative
+höflich	polite
+leicht	light, easy, simple
+richtig	right, correct
+streng	strict, severe
+einfach	simple, easy, simply, easily
+(die, eine) Jugendliche	(the, a) young person, adolescent (f)
+die Antwort	answer, reply, response
+die Aufgabe	task, exercise, assignment, job, duty
+die Frage	question, query
+die Hilfe	help, assistance
+die Information	information
+die Literatur	literature
+die Ordnung	order, tidiness
+die Regel	rule
+die Schülerin	pupil, school student (f)
+die Sorge	worry, care
+(der) Jugendliche / (ein) Jugendlicher	young person, adolescent (m)
+der Direktor	headteacher, principal, director
+der Fehler	mistake, error
+der Lehrer	teacher (m)
+der Roman	novel
+der Schüler	pupil, school student (m)
+der Student	student
+der Text	text
+der Traum	dream
+der Weg	path, way, method
+der Erwachsene	adult, grown-up
+das Wort	word
+die Ferien	holidays, school break (pl)
+die Hausaufgaben	homework
+die Jugendlichen (pl)	young people
+Lieblings(wort)	favourite (word)
+darauf/drauf	on it/them, to it/them
+fragen	to ask (about)
+sparen	to save
+stimmen	to be correct
+teilen	to share, divide
+unterstützen	to support
+verstehen	to understand
+wählen	to choose, elect, vote, select
+wiederholen	to repeat
+gerecht	just, fair
+verantwortlich	responsible, in charge
+der Satz	sentence, phrase
+bilden	to educate, form
+unterrichten	to teach, tutor
+
+## LEVEL: Theme 1 - Success at school
+erfolgreich	successful
+pünktlich	punctual, in/on time, prompt
+die Arbeit	work, job, employment
+die Klassenarbeit	school test
+die Note	mark, grade, (musical) note
+die Prüfung	exam(ination), test
+der Erfolg	success
+das Studium	study, studies
+das Zeugnis	report
+das Ziel	destination, goal, aim, target
+feiern	to celebrate, party
+studieren	to study (at university)
+träumen	to dream
+vorbereiten	to prepare (for)
+die Gelegenheit	opportunity, chance
+die Kenntnis	knowledge
+der Fortschritt	progress
+das Ergebnis	result, outcome
+bestehen	to exist, pass (an exam), insist (on), consist (of)
+konzentrieren	to concentrate (on)
+
+## LEVEL: Theme 1 - Problems at school
+schwierig	difficult, hard, tough
+spät	late
+die SMS	text message
+das Mobbing	bullying
+fehlen	to lack, be missing, be absent
+schlagen	to hit, beat
+verbieten	to forbid, prohibit, ban
+
+## LEVEL: Theme 1 - Work
+arbeitslos	unemployed
+reich	rich, wealthy, abundant
+die Karriere	career
+die Kollegin	colleague (f), co-worker (f)
+die Kommunikation	communication
+die Kundin	customer (f), client (f)
+die Stadt	town, city
+die Stelle	place, job, position
+die Stimme	voice, vote
+die Welt	world
+das E-Mail	e-mail
+der Beruf	occupation, job, profession
+der Euro	euro (unit of currency)
+der Job	job
+der Kollege	colleague (m), co-worker (m)
+der Kunde	customer (m), client (m)
+der Markt	market
+der Mitarbeiter	employee, co-worker, colleague
+der Partner	partner
+der Plan	plan
+der Urlaub	holiday
+das Geld	money, cash
+das Recht	right, law
+das Video	video
+die Firmen	firms, companies, businesses
+ankommen	to arrive (at)
+arbeiten	to work (on)
+bauen	to build, construct
+bekommen	to get, receive
+diskutieren	to discuss ()
+erklären	to explain
+sprechen	to speak, talk
+übersetzen	to translate
+verdienen	to earn, deserve
+verkaufen	to sell
+zahlen	to pay
+international	international
+technisch	technical
+wissenschaftlich	scientific
+die Arbeitslosigkeit	unemployment
+die Bundesregierung	federal government
+die Entwicklung	development
+die Erklärung	explanation
+die Gesellschaft	society, company
+die Industrie	industry
+die Maschine	machine
+die Mode	fashion
+die Organisation	organisation
+die Regierung	rule, government
+die Suche	search
+die Tätigkeit	activity, work, occupation
+die Verantwortung	responsibility
+die Wirtschaft	economy, commerce
+der Bau	construction, building
+der Leser	reader
+der Lohn	wage, pay, salary
+der Stoff	material, substance, fabric
+der Versuch	attempt, experiment
+das Gehalt	salary, pay, earnings, wages
+das Gesetz	law
+das Vorstellungsgespräch	job interview
+abgeben	to give in, hand in, submit
+beschäftigen	to employ
+gründen	to establish, found
+produzieren	to produce
+wechseln	to change, exchange (money)
+
+## LEVEL: Theme 1 - Workplaces
+die Firma	firm, company, business
+die Polizei	police
+die Post	post, mail, post office
+der Arbeitsplatz	workplace, job, employment
+der Flughafen	airport
+der Supermarkt	supermarket
+das Geschäft	business, shop
+das Hotel	hotel
+die Anlage	facility, complex
+die Fabrik	factory
+das Unternehmen	company, firm
+das Werk	work, plant, factory
+
+## LEVEL: Theme 1 - Jobs
+der Autor	author, writer
+der Betreuer	carer, care worker
+der Chef	boss
+der Fahrer	driver
+der Journalist	journalist
+der Künstler	artist, performer
+der Polizist	police officer
+der Sänger	singer
+der Schauspieler	actor
+der Verkäufer	shop assistant, sales person
+die Anwältin	lawyer (f), solicitor
+die Bäuerin	farmer (f)
+der Anwalt	lawyer (m), solicitor
+der Arbeitgeber	employer
+der Arbeitnehmer	employee, worker
+der Bauer	farmer (m)
+der Bürgermeister	mayor
+der Wissenschaftler	scientist
+
+## LEVEL: Theme 1 - Family
+die Cousine	cousin (female)
+die Dame	lady
+die Familie	family
+die Mutter	mother
+die Oma	grandma, grandmother
+die Schwester	sister
+die Tante	aunt
+die Tochter	daughter
+der Bruder	brother
+der Cousin	cousin (male)
+der Junge	boy
+der Mann	man, husband, male
+der Onkel	uncle
+der Opa	grandpa, grandad, grandfather
+der Sohn	son
+der Vater	father
+das Einzelkind	only child
+das Kind	child
+das Mädchen	girl
+die Brüder	brothers
+die Eltern (pl)	parents
+die Geschwister (pl)	siblings
+die Großeltern	grandparents
+Stief-	step-
+
+## LEVEL: Theme 1 - Friendships and relationships
+geschieden	divorced
+getrennt	separated
+ledig	single, unmarried
+verheiratet	married
+allein / alleine	alone
+nahe / nah	near(by), close
+zusammen	together, altogether
+die Beziehung	relation, relationship
+die Ehe	marriage
+die Frau	woman, wife, Mrs.
+die Hochzeit	wedding, marriage
+die Liebe	love
+die Person	person
+die Unterstützung	support
+der Kontakt	contact
+der Mensch	human being, person
+der Streit	argument, fight, dispute
+der Typ	bloke, guy
+das Gespräch	conversation, talk
+das Paar	pair, couple
+die Erwachsene	adult, grown-up
+auskommen	to get on with
+entschuldigen	to excuse; to apologise (to someone)
+heiraten	to marry
+kennen	to know
+lachen	to laugh
+streiten	to quarrel, argue, dispute
+treffen	to meet; to meet up, get together
+versprechen	to promise
+wohnen	to live, stay (holidays)
+die Generation	generation
+der Konflikt	conflict, dispute
+erkennen	to recognise, admit, realise
+kritisieren	to criticise
+nennen	to name, call; to be called
+trennen	to separate
+
+## LEVEL: Theme 1 - Sexuality and gender
+bi(sexuell)	bi, bisexual
+gay	gay
+hetero(sexuell)	straight, heterosexual
+nicht binär / nichtbinär	non-binary
+trans(gender)	transgender
+zivile Partnerschaft	civil partnership
+
+## LEVEL: Theme 1 - Colours
+blau	blue
+braun	brown
+grau	grey
+grün	green
+schwarz	black
+weiß	white
+die Farbe	colour
+
+## LEVEL: Theme 1 - Personality and opinions
+ärgerlich	annoying, irritating
+bekannt	well-known, famous
+berühmt	famous
+blöd	stupid, dumb
+böse	bad, mad, naughty, angry
+ehrlich	honest
+ernst	serious
+freundlich	kind, nice, friendly
+froh	happy, glad
+geduldig	patient
+komisch	funny, comical, strange, odd, weird
+lieb	dear, kind
+lustig	funny, enjoyable
+nett	nice
+ruhig	quiet, calm
+traurig	sad
+unabhängig	independent
+witzig	funny, witty, comical
+glücklich	happy, fortunate, happily
+die Persönlichkeit	personality, celebrity
+eifersüchtig	jealous
+frech	cheeky, naughty
+großzügig	generous
+stolz	proud
+die Eigenschaft	quality, characteristic, trait
+der Charakter	character
+das Verständnis	understanding, sympathy
+verbinden	to connect, link, unite; to bandage
+vertrauen	to trust
+vorstellen	to introduce; to imagine
+
+## LEVEL: Theme 1 - Birthdays
+die Party	party
+der Geburtstag	birthday
+der Name	name
+das Fest	festival, celebration
+das Geschenk	gift, present
+anrufen	to ring, phone
+ausgehen	to go out
+einladen	to invite
+die Erinnerung	memory, reminder
+die Geburt	birth
+schenken	to give (as a present)
+unterhalten	to entertain; to amuse oneself, chat
+
+## LEVEL: Theme 1 - Appearance and age
+alt	old
+dick	fat
+groß	big, tall, great
+klein	short (of a person), small, little
+kurz	short, brief
+schlank	slim, thin
+die Größe	size, height
+der Meter	metre
+das Alter	age
+das Haar	hair
+aussehen	to appear, look
+dünn	thin
+hässlich	ugly, hideous
+hübsch	pretty, cute, lovely
+die Brille	glasses, pair of glasses
+die Tätowierung	tattoo, tattooing
+
+## LEVEL: Theme 1 - Pets
+die Katze	cat
+der Hund	dog
+das Pferd	horse
+das Tier	animal
+
+## LEVEL: Theme 1 - Nationalities and languages
+deutsch	German
+englisch	English
+europäisch	European
+französisch	French
+spanisch	Spanish
+(die, eine) Deutsche	(the, a) German (f)
+(der) Deutsche / (ein) Deutscher	German (m)
+die Deutschen (pl)	Germans
+das Land	land, country, state, countryside
+berliner	(of) Berlin
+britisch	British
+österreichisch	Austrian
+Schweizer	Swiss
+türkisch	Turkish
+
+## LEVEL: Theme 1 - Religion
+kulturell	cultural
+die Jüdin	Jewish (f)
+die Tradition	tradition
+der Christ	Christian
+der Jude	Jewish person (m), Jewish (m)
+der Hindu	Hindu
+der Muslim	Muslim
+traditionell	traditional, traditionally
+
+## LEVEL: Theme 1 - Life and death
+geboren	born
+gestorben	died
+stammen aus	to come from
+starb	died (past)
+
+## LEVEL: Theme 2 - Celebrity culture
+beliebt	popular
+national	national
+öffentlich	public
+persönlich	personal
+die Band	band, group (music)
+die Kamera	camera
+die Komödie	comedy
+die Kultur	culture
+die Nachricht	news, message
+die Runde	round, lap (sport)
+die Seifenoper	soap opera, series
+die Sendung	programme
+die Zeitung	newspaper
+der Fan	fan, supporter
+der Film	film, movie
+der Preis	price, prize, award
+der Spieler	player
+der Star	celebrity, headliner
+der Zuschauer	viewer, spectator
+das Bild	picture, image, photo
+das Fernsehen	television
+das Foto	photo, photograph
+das Glück	luck, good luck, fortune, happiness
+das Interview	interview
+das Kino	cinema, movies, pictures
+das Konzert	concert
+das Lied	song
+das Programm	program (IT), channel (TV)
+das Publikum	audience, public
+die Medien (pl)	media
+soziale Medien	social media
+ansehen	to look at, watch
+folgen	to follow
+die Reichen	the rich (ones)
+die Gegenwart	present
+die Kritik	criticism, review
+die Öffentlichkeit	public
+die Serie	series
+die Veranstaltung	event, performance
+die Vorstellung	idea, introduction, performance, imagination
+die Wirklichkeit	reality, truth
+der Einfluss	influence
+das Opfer	sacrifice, victim, casualty
+das Vorbild	role model, example
+amüsieren	to enjoy (oneself), to have a good time
+auftreten	to appear, occur, perform
+berichten	to report
+darstellen	to depict, portray, show, represent
+drehen	to film, turn, to be about
+
+## LEVEL: Theme 2 - Religion
+die Kirche	church
+die Moschee	mosque
+die Synagoge	synagogue
+der erste Weihnachtstag	Christmas Day
+der Tempel	temple
+glauben	to believe (in), think
+
+## LEVEL: Theme 2 - Parties and celebrations
+die Feier	celebration, party, ceremony
+der Gast	guest (m), visitor
+der Schuh	shoe
+das Licht	light
+kaufen	to buy
+schicken	to send
+stattfinden	to take place, occur
+teilnehmen	to take part (in)
+die Freude	joy, pleasure
+die Stimmung	mood, atmosphere
+der Lärm	noise
+das Ereignis	event, occurrence, incident
+das Feuer	fire, bonfire
+das Feuerwerk	fireworks
+brennen	to burn
+entdecken	to discover
+hängen	to hang
+
+## LEVEL: Theme 2 - Festivals and holidays
+fremd	foreign, strange
+historisch	historical
+die Region	region, area
+der Heilige Abend	Christmas Eve
+der Tourist	tourist
+der Silvester	New Year's Eve
+das Eid	Eid
+das Ostern	Easter
+das Weihnachten	Christmas
+der Karneval	Carnival
+
+## LEVEL: Theme 2 - Free time and social activities
+bequem	comfortable
+sonnig	sunny
+der Wind	wind
+das Wetter	weather
+schneien	to snow
+
+## LEVEL: Theme 2 - Sport and outdoor activities
+die Küste	coast, shore
+der Ball	ball
+der Berg	mountain, hill
+der Besucher	visitor, guest
+der Fluss	river
+der Garten	garden
+der Ort	place, town, location
+der Platz	place, room, square, seat, pitch (sport)
+der Strand	beach, shore
+der Wald	forest, wood
+der See	lake, sea
+das Feld	field, pitch, court (sport)
+das Spiel	game, match
+das Stadion	stadium
+das Tor	goal, gate
+gewinnen	to win
+steigen	to increase, go up, climb
+tauchen	to dive
+verlieren	to lose
+werfen	to throw
+zurückkommen	to return
+die Geschwindigkeit	speed
+der Aufenthalt	stay, residence
+das Boot	boat
+klettern	to climb
+schießen	to shoot (at); kick (ball)
+
+## LEVEL: Theme 2 - Food and drink
+die Rechnung	bill, calculation, invoice
+der Tisch	table
+das Café	café, coffee shop
+
+## LEVEL: Theme 2 - Cultural activities (TV, film, reading, music, museums)
+klassisch	classical
+der Artikel	article
+der Krimi	thriller, detective story/film, crime story/film
+das Museum	museum
+das Schiff	ship
+das Schloss	castle
+das Ticket	ticket
+sammeln	to collect, gather
+streamen	to stream
+die Ausstellung	exhibition, show
+die Folge	result, consequence, episode (TV)
+die Spannung	suspense, tension
+die Werbung	advertising, advert(isement)
+der Inhalt	content, plot
+die Museen	museums
+anschauen	to look at, watch
+beobachten	to observe, watch
+gucken, kucken	to look, watch
+
+## LEVEL: Theme 2 - Shopping and clothes
+eng	narrow, close, tight
+offen	open
+bezahlen	to pay
+einkaufen	to shop
+öffnen	to open
+passen	to fit, suit
+schließen	to close, shut
+der Laden	shop
+das Angebot	offer, supply
+
+## LEVEL: Theme 3 - Where people live
+arm	poor
+schön	lovely, beautiful
+sicher	safe, secure, certain, sure, of course
+weit	far, wide, widely
+die Gegend	area, region
+die Menge	quantity, amount, a lot of, crowd (people)
+die Nähe	vicinity, proximity
+die Umgebung	surroundings, neighbourhood
+der Nachbar	neighbour
+der Norden	north
+der Osten	east
+der Süden	south
+der Westen	west
+das Dorf	village
+das Gebiet	region, area, territory
+das Viertel	quarter
+liegen	to lie, be lying (down), be situated
+ehemalig	former
+fern	far, distant
+riesig	huge, great, tremendous, giant, massive, enormous
+rein	pure, clear, clean, total(ly)
+relativ	relative, relatively, comparatively
+die Bevölkerung	population, people, members of the public
+die Hauptstadt	capital city
+der Bereich	area, region, district
+der Einwohner	inhabitant, resident
+der Haushalt	household, budget
+der Rand	edge
+besitzen	to own, have
+
+## LEVEL: Theme 3 - Types of accommodation
+die Wohnung	apartment, flat
+das Haus	house
+
+## LEVEL: Theme 3 - Countries, rivers and seas
+die Bundesrepublik	Federal Republic (of Germany)
+die Ostsee	Baltic Sea
+die Schweiz	Switzerland
+die Türkei	Turkey
+der Rhein	Rhine
+das Bundesland	state, province (Germany, Austria)
+das Deutschland	Germany
+das England	England
+das Frankreich	France
+das Griechenland	Greece
+das Großbritannien	Great Britain
+das Italien	Italy
+das Köln	Cologne
+das München	Munich
+das Österreich	Austria
+das Spanien	Spain
+das Wien	Vienna
+das Amerika	America
+die USA (pl)	United States of America
+
+## LEVEL: Theme 3 - Rooms and furniture
+oben	above, up there, upstairs
+unten	down, downstairs, below
+die Tür	door
+die Wand	wall
+der Boden	ground, floor, bottom
+der Keller	cellar, basement
+das Fenster	window
+das Wohnzimmer	living room, lounge, sitting room
+drinnen	inside, indoors
+die Ecke	corner
+die Mauer	wall
+der Schlüssel	key
+das Dach	roof
+
+## LEVEL: Theme 3 - Places in the town
+der Bahnhof (railway)	station
+Haupt(straße)	main (street)
+geöffnet	open
+geschlossen	closed, shut
+der Stern	star
+
+## LEVEL: Theme 3 - Transport and directions
+breit	wide, broad
+linke(r/s)	left (adj.)
+rechte(r/s)	right (adj.)
+links	on/to the left
+rechts	on/to the right
+überall	everywhere
+vorne,	vorn at/to the front, ahead
+die Bahn	train, railway
+die Brücke	bridge
+die Richtung	direction, way
+die Straße	street, road
+der Verkehr	traffic, transport
+der Zug	train
+das Auto	car
+das Fahrzeug	vehicle
+die Busse	buses
+gegenüber	opposite, across from
+hinter	behind
+zwischen	between
+suchen	to search for, look for
+die Straßenbahn	tram
+die U-Bahn	underground railway, metro
+ziehen	to pull, move
+
+## LEVEL: Theme 3 - The natural world
+die Erde	earth, ground, soil, world
+die Höhe	height, altitude
+die Insel	island
+die Landschaft	landscape, countryside
+die Natur	nature
+die Pflanze	plant
+die Quelle	source, spring
+die Ruhe	silence, peace, rest
+die Temperatur	temperature
+der Baum	tree
+der Frühling	spring
+der Herbst	autumn
+der Himmel	sky, heaven
+der Schnee	snow
+der Vogel	bird
+der Winter	winter
+der Grad	degree (temperature)
+regnen	to rain
+wachsen	to grow, increase
+
+## LEVEL: Theme 3 - Environmental problems
+die Umwelt	environment
+der Müll	rubbish, waste, litter
+das Problem	problem
+das Risiko	risk, hazard, danger
+lassen	to let, allow
+verschmutzen	to pollute, contaminate
+verschwinden	to disappear
+zerstören	to destroy, ruin
+knapp	scarce, slim
+der Effekt	effect
+der Klimawandel	climate change
+das Klima	climate
+die Risiken	risks, hazards, dangers
+verursachen	to cause
+verwenden	to use
+
+## LEVEL: Theme 3 - Helping the environment
+leer	empty
+das Recycling	recycling
+recyceln	to recycle
+schützen	to protect (from)
+verboten	forbidden, banned
+selbstverständlich	natural, self-evident, obvious, naturally, obviously
+die Tat	deed, action
+der Bürger	citizen
+der Kampf	fight, struggle, battle
+das Elektroauto	electric car, electric vehicle
+kämpfen	to fight, struggle, battle
+reduzieren	to reduce, decrease
+
+## LEVEL: Theme 3 - Conflict
+die Freiheit	freedom
+die Gewalt	violence, force
+die Sicherheit	security, safety, certainty
+der Krieg	war
+
+## LEVEL: Theme 3 - Politics
+die EU	EU (European Union)
+aktuell	current, up-to-date, topical
+der Flüchtling	refugee
+
+## LEVEL: Theme 3 - Technology and devices
+der Laptop	laptop
+das System	system
+benutzen	to use
+funktionieren	to function, work
+das Gerät	tool, piece of equipment, appliance
+aufladen	to charge
+
+## LEVEL: Theme 3 - Internet and digital communication
+die Seite	side, page, hand (on the one/other hand)
+die App	app
+die E-Mail	e-mail
+der Brief	letter
+der Blog	blog
+das WLAN	wi-fi
+herunterladen	to download
+hochladen	to upload
+reden	to talk
+simsen	to text
+die Rede	speech, talk
+die Verbindung	connection, link
+das Netz	net, network, web
+telefonieren	to (make a telephone) call
+
+## LEVEL: Theme 3 - Online entertainment
+der Ton	sound, tone
+die Szene	scene
+aufnehmen	to take in, record
+
+## LEVEL: Theme 3 - Dangers and online safety
+die Daten (pl)	data
+reagieren	to react (to)
+stehlen	to steal
+
+## LEVEL: Theme 3 - Accommodation
+willkommen	welcome
+bleiben	to stay, remain
+das Zelt	tent
+
+## LEVEL: Theme 3 - Tourist attractions (countryside and coast)
+entspannend	relaxing
+der Blick	look, view, glance
+
+## LEVEL: Theme 3 - Food and drink
+nehmen	to take, have something to eat or drink
+
+## LEVEL: Theme 3 - Seasons, weather and compass points
+der Sommer	summer
+
+## LEVEL: Theme 3 - Transport
+direkt	direct, straight, directly, immediately
+unterwegs	on the way
+wohin?	where...to?
+die Linie	line, route (e.g. bus)
+das Flugzeug	aeroplane, plane, aircraft
+das Mittel	means, average
+fliegen	to fly
+warten	to wait (for)
+der Flug	flight
+abholen	to get, fetch, pick up
+

@@ -75,6 +75,12 @@ Questions live in `tools/src/*.js`, one file per subject, one line per question:
 Then run `node tools/build-questions.js`. It checks every question, prints coverage per subject, and rebuilds `questions.json`.
 Add `--missing` to list tracker topics that have no questions yet.
 
+Some files build their questions with code instead of listing them one by one:
+- `tools/src/french.js` and `tools/src/german-grammar.js` hold the verb tables (avoir, être, aller, faire, voir, prendre, the modals, haben, sein,
+  gehen, fahren...) and generate the conjugation, tense and word-order questions from them. Fix a form in the table and every question using it is fixed.
+- `tools/src/german-vocab.js` turns every card in `tools/data/german-vocab.txt` (the AQA German word list, in the Memrise by-topic layout) into one
+  multiple-choice question, alternating German → English and English → German. The wrong answers come from other words of the same kind.
+
 ## Good to know
 - GitHub's scheduler can run late (on 21 Sept 2026 it ran about 6 hours late), which is why the exact time is handled by ntfy, not GitHub.
 - Test the timing logic with `node tools/next-send.js --test` (it covers weekdays, weekends and the clocks changing).

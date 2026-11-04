@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-11-04",
   "note": "Only topics listed here are ever asked. Each entry is a whole subject, a unit, or a single topic. Unit and topic names match the tabs of the GCSE Specification Tracker exactly.",
   "studied": [
     { "subject": "Biology", "unit": "4.1 Cell biology" },
@@ -27,15 +27,34 @@
     { "subject": "Computer Science", "unit": "3.3 Fundamentals of data representation" },
     { "subject": "Computer Science", "unit": "3.4 Computer systems" },
     { "subject": "Computer Science", "unit": "3.5 Systems architecture" },
+    { "subject": "Computer Science", "unit": "3.6 Fundamentals of computer networks" },
+    { "subject": "Computer Science", "unit": "3.7 Cyber security" },
+    { "subject": "Computer Science", "unit": "3.8 Relational databases and SQL" },
     { "subject": "Computer Science", "unit": "3.9 Ethical, legal and environmental impacts" },
 
     { "subject": "GCSE History", "unit": "Paper 1: Medicine in Britain, c1250-present" },
     { "subject": "GCSE History", "unit": "Paper 1: The British sector of the Western Front, 1914-18" },
     { "subject": "GCSE History", "unit": "Paper 2: Superpower relations and the Cold War, 1941-91" },
     { "subject": "GCSE History", "unit": "Paper 2: Anglo-Saxon and Norman England, c1060-88" },
+    { "subject": "GCSE History", "topic": "The Weimar Republic, 1918-29" },
 
     { "subject": "English Literature", "unit": "Component 1A: Shakespeare - Macbeth" },
     { "subject": "English Literature", "unit": "Component 1B: Poetry Anthology (1789-present)" },
-    { "subject": "English Literature", "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls" }
+    { "subject": "English Literature", "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls" },
+    { "subject": "English Literature", "unit": "Component 2B: 19th-century prose - A Christmas Carol" },
+    { "subject": "English Literature", "unit": "Component 2C: Unseen poetry" },
+
+    { "subject": "French", "topic": "Present tense" },
+    { "subject": "French", "topic": "Perfect and imperfect tense" },
+    { "subject": "French", "topic": "Near future, future and conditional" },
+    { "subject": "French", "topic": "Imperative and verb constructions" },
+
+    { "subject": "German", "unit": "Theme 1: People and lifestyle" },
+    { "subject": "German", "unit": "Theme 2: Popular culture" },
+    { "subject": "German", "unit": "Theme 3: Communication and the world around us" },
+    { "subject": "German", "topic": "Present tense" },
+    { "subject": "German", "topic": "Perfect and imperfect tense" },
+    { "subject": "German", "topic": "Future, conditional and pluperfect" },
+    { "subject": "German", "topic": "Subordinating conjunctions and word order" }
   ]
 }
