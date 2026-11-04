@@ -57,5 +57,36 @@
     { "subject": "German", "topic": "Perfect and imperfect tense" },
     { "subject": "German", "topic": "Future, conditional and pluperfect" },
     { "subject": "German", "topic": "Subordinating conjunctions and word order" }
-  ]
+  ],
+  "mockNote": "Mock revision mode: until the date below the quiz only asks topics from this list (they must also be in the studied list above). After that date it goes back to everything studied.",
+  "mock": {
+    "until": "2026-12-05",
+    "entries": [
+      { "subject": "Biology", "unit": "4.1 Cell biology" },
+      { "subject": "Biology", "unit": "4.2 Organisation" },
+      { "subject": "Biology", "unit": "4.3 Infection and response" },
+      { "subject": "Biology", "unit": "4.4 Bioenergetics" },
+
+      { "subject": "Chemistry", "unit": "5.1 Atomic structure and the periodic table" },
+      { "subject": "Chemistry", "unit": "5.2 Bonding, structure and properties" },
+      { "subject": "Chemistry", "unit": "5.3 Quantitative chemistry" },
+      { "subject": "Chemistry", "unit": "5.4 Chemical changes" },
+      { "subject": "Chemistry", "unit": "5.5 Energy changes" },
+
+      { "subject": "Physics", "unit": "6.1 Energy" },
+      { "subject": "Physics", "unit": "6.2 Electricity" },
+      { "subject": "Physics", "unit": "6.3 Particle model of matter" },
+      { "subject": "Physics", "unit": "6.4 Atomic structure" },
+
+      { "subject": "Computer Science" },
+      { "subject": "French" },
+      { "subject": "German" },
+
+      { "subject": "GCSE History", "topic": "The Weimar Republic, 1918-29" },
+
+      { "subject": "English Literature", "unit": "Component 2A: Post-1914 prose/drama - An Inspector Calls" },
+      { "subject": "English Literature", "unit": "Component 2B: 19th-century prose - A Christmas Carol" },
+      { "subject": "English Literature", "unit": "Component 2C: Unseen poetry" }
+    ]
+  }
 }

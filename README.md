@@ -64,6 +64,11 @@ names match the tabs of your GCSE Specification Tracker exactly:
 Then run `node tools/build-questions.js`. It checks `studied.json` for typos and warns about any listed area that has no questions yet.
 Push the change (`git add . ; git commit -m "Update studied" ; git push`) and the next quiz uses it.
 
+### Mock revision mode
+`studied.json` also has a `mock` block: an `until` date and a list of `entries` (same format as above). Until that date (UK time) the daily quiz and
+the Subject quiz only ask topics that are in **both** lists, and the page says "Mock revision mode". After the date it switches itself off and goes back
+to everything in the studied list. To change the dates or topics, edit that block. Add `?mock=0` to the page address to see the normal mix while testing.
+
 ## Adding or fixing questions
 
 Questions live in `tools/src/*.js`, one file per subject, one line per question:

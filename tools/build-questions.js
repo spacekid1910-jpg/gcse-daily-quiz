@@ -86,7 +86,9 @@ console.log('\nWrote questions.json');
 const studiedFile = JSON.parse(fs.readFileSync(path.join(root, 'studied.json'), 'utf8'));
 const studiedProblems = [];
 let studiedQs = 0;
-for (const s of studiedFile.studied || []) {
+const mockEntries = (studiedFile.mock && studiedFile.mock.entries) || [];
+if (studiedFile.mock && !/^\d{4}-\d{2}-\d{2}$/.test(studiedFile.mock.until || '')) studiedProblems.push('studied.json: mock.until must be a date like 2026-12-05');
+for (const s of [...(studiedFile.studied || []), ...mockEntries]) {
   const label = [s.subject, s.unit, s.topic].filter(Boolean).join(' / ');
   if (!topics[s.subject]) { studiedProblems.push(`studied.json: unknown subject "${s.subject}"`); continue; }
   if (s.unit && !topics[s.subject].some((t) => t.unit === s.unit)) { studiedProblems.push(`studied.json: no such unit: ${label}`); continue; }
@@ -101,7 +103,7 @@ if (studiedProblems.length) { console.error('\nSTUDIED LIST WARNINGS:'); studied
 // ---- refresh the built-in copy inside index.html (used when the live files cannot be fetched) ----
 const indexPath = path.join(root, 'index.html');
 const html = fs.readFileSync(indexPath, 'utf8');
-const payload = JSON.stringify({ questions: out, studied: studiedFile.studied || [], updated: studiedFile.updated || '' }).replace(/</g, '\\u003c');
+const payload = JSON.stringify({ questions: out, studied: studiedFile.studied || [], updated: studiedFile.updated || '', mock: studiedFile.mock || null }).replace(/</g, '\\u003c');
 const embedded = `<!--EMBED_START--><script id="embedded-data" type="application/json">${payload}</script><!--EMBED_END-->`;
 if (!/<!--EMBED_START-->[\s\S]*<!--EMBED_END-->/.test(html)) {
   console.error('index.html is missing the EMBED_START/EMBED_END markers');
